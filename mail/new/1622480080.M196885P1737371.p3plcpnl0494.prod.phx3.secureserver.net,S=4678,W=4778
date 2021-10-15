@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id cG9cCtAUtWCbghoASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Mon, 31 May 2021 09:54:40 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Mon, 31 May 2021 09:54:40 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1lnlBY-007Vtt-2s
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Mon, 31 May 2021 09:54:40 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1622480079www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1622480080-eximdsn-804794648
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lnlBY-007Vtt-2s@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Mon, 31 May 2021 09:54:40 -0700
+
+--1622480080-eximdsn-804794648
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 nlBYleNOqyRGM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Aq4rYMxP c=1 sm=1 tr=0 ts=60b514d0 p=7-ppGwQ1AAAA:20 p=xm86tanzOrcA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=5FLXtPjwQuUA:10 a=wGRusFs_0cMA:10 a=L9pUM0g290mb6PCMi_cA:9 a=wPNLvfGTeEIA:10 a=Tu0JxW9XCD8A:10 a=IawXvI9lP1MA:10 a=5oJKDou8YC4A:10 a=94AGJy5irUqrrfiBg_Cj:22 a=g5p63EKjbY_XdXfPuHko:22 a=p-dnK0njbqwfn1k4-x12:22 a=v_cQPovZ7B8H8PG8zmBF:22 ::
+    100.00
+
+--1622480080-eximdsn-804794648
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 nlBYleNOqyRGM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Aq4rYMxP c=1 sm=1 tr=0 ts=60b514d0 p=7-ppGwQ1AAAA:20 p=xm86tanzOrcA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=5FLXtPjwQuUA:10 a=wGRusFs_0cMA:10 a=L9pUM0g290mb6PCMi_cA:9 a=wPNLvfGTeEIA:10 a=Tu0JxW9XCD8A:10 a=IawXvI9lP1MA:10 a=5oJKDou8YC4A:10 a=94AGJy5irUqrrfiBg_Cj:22 a=g5p63EKjbY_XdXfPuHko:22 a=p-dnK0njbqwfn1k4-x12:22 a=v_cQPovZ7B8H8PG8zmBF:22 :: 100.00
+
+--1622480080-eximdsn-804794648
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1lnlBX-007VtW-Tn
+	for kmcaulay@shfinc.org; Mon, 31 May 2021 09:54:39 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 193.150.170.226, 162.158.183.179
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 162.158.183.179
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1622480079www.settlementhousingfund.org>
+X-Sender-IP: 162.158.183.179
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="775cf192f9561253c8da7dc082b61f87"
+Date: Mon, 31 May 2021 09:54:39 -0700
+
+--775cf192f9561253c8da7dc082b61f87
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: JosephJakKA JosephJakKA
+Business Name: JosephJak
+Email: w1ha2@goposts.site
+Phone: 89466715293
+Address: 
+Paphos
+Paphos, Cyprus 124344
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Hi, here on the forum guys advised a cool Dating site, be sure to register - you will not REGRET it <a href=https://bit.ly/2XbVumI>https://bit.ly/2XbVumI</a>
+
+---------------------------------------------------------------
+
+end of message
+
+--775cf192f9561253c8da7dc082b61f87--
+
+
+
+--1622480080-eximdsn-804794648--

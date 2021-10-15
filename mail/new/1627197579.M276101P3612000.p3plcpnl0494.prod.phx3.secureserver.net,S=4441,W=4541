@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id QJRUDosQ/WBgHTcASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Sun, 25 Jul 2021 00:19:39 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Sun, 25 Jul 2021 00:19:39 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1m7YQF-00FTPy-4o
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Sun, 25 Jul 2021 00:19:39 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1627197578www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1627197579-eximdsn-1511426185
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1m7YQF-00FTPy-4o@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Sun, 25 Jul 2021 00:19:39 -0700
+
+--1627197579-eximdsn-1511426185
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 7YQFmfsXfVjYq :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=60fd108b p=Xdijzn4FX-AA:10 p=nHvO1gpbAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=e_q4qTt1xDgA:10 a=CjxXgO3LAAAA:8 a=X01OPZXKxLGifJnXCA8A:9 a=wPNLvfGTeEIA:10 a=HNCBWCSH-1sA:10 a=Coo_U9gWP1IA:10 a=eh1Pnz_Cl_QA:10 ::
+    100.00
+
+--1627197579-eximdsn-1511426185
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 7YQFmfsXfVjYq :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=60fd108b p=Xdijzn4FX-AA:10 p=nHvO1gpbAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=e_q4qTt1xDgA:10 a=CjxXgO3LAAAA:8 a=X01OPZXKxLGifJnXCA8A:9 a=wPNLvfGTeEIA:10 a=HNCBWCSH-1sA:10 a=Coo_U9gWP1IA:10 a=eh1Pnz_Cl_QA:10 :: 100.00
+
+--1627197579-eximdsn-1511426185
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1m7YQE-00FTPQ-VO
+	for kmcaulay@shfinc.org; Sun, 25 Jul 2021 00:19:39 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 156.146.36.80, 108.162.219.180
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 108.162.219.180
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1627197578www.settlementhousingfund.org>
+X-Sender-IP: 108.162.219.180
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="0afc3e281b37df37d94a608025d7eb5e"
+Date: Sun, 25 Jul 2021 00:19:38 -0700
+
+--0afc3e281b37df37d94a608025d7eb5e
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Harley Ginkel Joelle Mueller
+Business Name: Hope Stanzione
+Email: JackSteen@yahoo.com
+Phone: 
+Address: 
+
+,  
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+18 free traffic sources you should be using: https://bit.ly/18-free-traffic-sources
+
+---------------------------------------------------------------
+
+end of message
+
+--0afc3e281b37df37d94a608025d7eb5e--
+
+
+
+--1627197579-eximdsn-1511426185--

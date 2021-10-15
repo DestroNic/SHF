@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id gFDvKzqb2WCNtxoASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Mon, 28 Jun 2021 02:49:46 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Mon, 28 Jun 2021 02:49:46 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1lxnti-007TpR-L6
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Mon, 28 Jun 2021 02:49:46 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1624873786www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1624873786-eximdsn-615259197
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lxnti-007TpR-L6@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Mon, 28 Jun 2021 02:49:46 -0700
+
+--1624873786-eximdsn-615259197
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 xntilQ1wgR2Xd :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=SsxVVNC0 c=1 sm=1 tr=0 ts=60d99b3a p=00JbOib7AAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=r6YtysWOX24A:10 a=lE1raa-uli0A:10 a=GbAY8EB_vLUMeKGq6PUA:9 a=wPNLvfGTeEIA:10 a=OvEvDND2TBEA:10 a=BTEwySMmQ8EA:10 a=CtX0RBzY_TUA:10 a=ElEwrtofCgsA:10 a=94AGJy5irUqrrfiBg_Cj:22 ::
+    100.00
+
+--1624873786-eximdsn-615259197
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 xntilQ1wgR2Xd :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=SsxVVNC0 c=1 sm=1 tr=0 ts=60d99b3a p=00JbOib7AAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=r6YtysWOX24A:10 a=lE1raa-uli0A:10 a=GbAY8EB_vLUMeKGq6PUA:9 a=wPNLvfGTeEIA:10 a=OvEvDND2TBEA:10 a=BTEwySMmQ8EA:10 a=CtX0RBzY_TUA:10 a=ElEwrtofCgsA:10 a=94AGJy5irUqrrfiBg_Cj:22 :: 100.00
+
+--1624873786-eximdsn-615259197
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1lxnti-007Toz-Fd
+	for kmcaulay@shfinc.org; Mon, 28 Jun 2021 02:49:46 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 104.254.92.188, 108.162.241.58
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 108.162.241.58
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1624873786www.settlementhousingfund.org>
+X-Sender-IP: 108.162.241.58
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="3a9418ec4ba6402e098058b80c2d98e3"
+Date: Mon, 28 Jun 2021 02:49:46 -0700
+
+--3a9418ec4ba6402e098058b80c2d98e3
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Cary Flint
+Business Name: Cary Flint
+Email: jhlaalshmar@polostar.me
+Phone: 580-310-3531
+Address: 
+4148 Grove Avenue
+Ada, OK 74820
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+20 Clever Ways to Get Free Advertising on Google & Beyond, check it out:  https://bit.ly/20-clever-ways
+
+---------------------------------------------------------------
+
+end of message
+
+--3a9418ec4ba6402e098058b80c2d98e3--
+
+
+
+--1624873786-eximdsn-615259197--

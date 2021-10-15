@@ -1,0 +1,51 @@
+
+#theNavigation {
+    text-align: center;
+}
+
+#theNavigation div#subN {
+    width: 525px;
+    margin: 0 auto;
+}
+
+#theNavigation a {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    height: 30px;
+    display: inline;
+    float: left;
+}
+
+#theNavigation a.home { margin: 0 0 0 25px; }
+
+#theNavigation div#theSearchNav {
+    display: inline;
+    float: left;
+    height: 30px;
+    padding: 0 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    margin: 0;
+}
+
+#theNavigation div#theSearchNav form {
+    height: 26px;
+    margin: 1px;
+}
+
+#theNavigation div#theSearchNav input {
+    margin: 0;
+}
+
+#theBody div#theBoxes div.box ul {
+    margin-left: 15px;
+}
+
+#theBody div#theBoxes div.box ul ul {
+    margin-left: 25px;
+}

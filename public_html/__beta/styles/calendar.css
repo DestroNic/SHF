@@ -1,0 +1,188 @@
+
+#theBody div#theRight div#theEvents div#theCalendar {
+    float: left;
+    display: inline;
+    width: 140px;
+    height: 170px;
+    margin: 0 0 0 5px;
+    
+}
+
+div#theCalendar {
+    position: relative;
+}
+
+#theCalendar1,
+#theCalendar2 {
+    position: absolute;
+    width: 260px;
+    height: 220px;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+#theCalendar div#theCalendar_top {
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    border-bottom: 1px solid #ffffff;
+    background: url('../images/h1.jpg') 0 0 repeat-x;
+    margin: 0;
+}
+
+#theCalendar div#theCalendar_top a.small_link {
+    font-size: 11px;
+    text-decoration: none;
+    float: left;
+    display: inline;
+    width: 70px;
+    height: 25px;
+    line-height: 25px;
+    text-align: left;
+    color: #ffffff;
+}
+
+#theCalendar div#theCalendar_top a.small_link:hover {
+    color: #ED8322;
+}
+
+#theCalendar div#theCalendar_top a.next_month {
+    text-align: right;
+}
+
+#theCalendar div#theCalendar_top h1 {
+    width: 119px;
+    float: left;
+    display: inline;
+    background: none;
+    text-align: center;
+    padding: 0;
+}
+
+
+#theCalendar div.calendar {
+    width: 224px;
+    height: 175px;
+    margin: 0;
+    background: #ffffff url('../images/cal_bg.jpg') 0 100% no-repeat;
+    margin: 0 auto;
+}
+
+#theCalendar div.calendar div.cal_row {
+    margin: 0;
+    clear: both;
+    width: 224px;
+    height: 29px;
+}
+
+#theCalendar div.calendar div.head {
+    height: 15px;
+    line-height: 15px; 
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    font-family: Georgia,'Times New Roman',Times,serif;
+    font-size: 12px;
+}
+
+#theCalendar div.calendar div.cal_row div.day {
+    float: left;
+    display: inline;
+    width: 30px;
+    height: 27px;
+    line-height: 27px;
+    margin: 0;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    font-size: 14px;
+    
+    text-align: center;
+}
+
+#theCalendar div.calendar div.cal_row div.past,
+#theCalendar div.calendar div.cal_row div.future {
+    font-size: 11px;
+    color: #cccccc;
+}
+
+#theCalendar div.calendar div.cal_row div.day a {
+    font-weight: bold;
+    height: 27px;
+    line-height: 27px;
+    width: 30px;
+    text-decoration: none;
+    display: block;
+    color: #000000;
+    background-image: url('../images/day_box.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+}
+
+#theCalendar div.calendar div.cal_row div.day a:hover {
+    height: 25px;
+    line-height: 25px;
+    width: 28px;
+    background-image: url('../images/day_box.png');
+    background-position: 0 100%;
+    background-repeat: no-repeat;
+}
+
+/*
+#theCalendar div.calendar div.cal_row div.day a.nyhc_community:hover { border: 1px outset #179b48; color: #179b48; }
+#theCalendar div.calendar div.cal_row div.day a.young_leader:hover,
+#theCalendar div.calendar div.cal_row div.day a.young_leadership_council:hover { border: 1px outset #daa329; color: #daa329; }
+#theCalendar div.calendar div.cal_row div.day a.events:hover { border: 1px outset #54c8e4; color: #54c8e4; }
+#theCalendar div.calendar div.cal_row div.day a.library:hover,
+#theCalendar div.calendar div.cal_row div.day a.nyhc_library:hover { border: 1px outset #5961ac; color: #5961ac; }
+#theCalendar div.calendar div.cal_row div.day a.alerts:hover { border: 1px outset #76af45; color: #76af45; }
+#theCalendar div.calendar div.cal_row div.day a.advocacy:hover { border: 1px outset #ed8322; color: #ed8322; }
+#theCalendar div.calendar div.cal_row div.day a.get_involved:hover { border: 1px outset #e5d329; color: #e5d329; }
+#theCalendar div.calendar div.cal_row div.day a.newsroom:hover { border: 1px outset #a561a7; color: #a561a7; }
+#theCalendar div.calendar div.cal_row div.day a.our_donors:hover,
+#theCalendar div.calendar div.cal_row div.day a.donors:hover { border: 1px outset #38d59e; color: #38d59e; }
+*/
+#theCalendar div.calendar div.head div.day {
+    height: 15px;
+    background: #b5c3ce;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+#theCalendar div.calendar div.cal_row div.confirmed {
+    background: #ff94a3;
+}
+
+#theCalendar div.calendar div.cal_row div.pending { 
+    background: #fff494;
+}
+
+#theCalendar div.calendar div.cal_row div.sold_na { 
+    background: #9cff94;
+}
+
+#theCalendar div.calendar div.cal_row div.day div.day_number {
+    font-size: 13px;
+    font-family: Georgia,'Times New Roman',Times,serif;
+    border: 1px solid #195a82;
+    padding: 3px 0;
+    width: 22px;
+    height: 14px;
+    margin: 2px;
+    text-align: center;
+    background: #b5c3ce;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#theCalendar div#theCalendar_top:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */

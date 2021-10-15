@@ -1,0 +1,75 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id oEvQL3QatGBufAAASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Sun, 30 May 2021 16:06:28 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Sun, 30 May 2021 16:06:28 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1lnUVo-000X39-Nd
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Sun, 30 May 2021 16:06:28 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1622415988www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1622415988-eximdsn-1884417833
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lnUVo-000X39-Nd@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Sun, 30 May 2021 16:06:28 -0700
+
+--1622415988-eximdsn-1884417833
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 nUVolvZxJ25Dh :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=bJvTnNyZ c=1 sm=1 tr=0 ts=60b41a74 p=4NrxXuqHKY8A:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=5FLXtPjwQuUA:10 a=pGLkceISAAAA:8 a=7PosC-YcAAAA:8 a=_OEQCMHQ3at5Qx67iOoA:9 a=wPNLvfGTeEIA:10 a=4Jrfm9UbmegA:10 a=5IqJHZfxepIA:10 a=x4eNu-HrhP848T6RrXPL:22 a=1W4ZlaIUBDaz3SiqInFx:22 a=pHzHmUro8NiASowvMSCR:22 a=n87TN5wuljxrRezIQYnT:22 ::
+    100.00
+
+--1622415988-eximdsn-1884417833
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 nUVolvZxJ25Dh :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=bJvTnNyZ c=1 sm=1 tr=0 ts=60b41a74 p=4NrxXuqHKY8A:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=5FLXtPjwQuUA:10 a=pGLkceISAAAA:8 a=7PosC-YcAAAA:8 a=_OEQCMHQ3at5Qx67iOoA:9 a=wPNLvfGTeEIA:10 a=4Jrfm9UbmegA:10 a=5IqJHZfxepIA:10 a=x4eNu-HrhP848T6RrXPL:22 a=1W4ZlaIUBDaz3SiqInFx:22 a=pHzHmUro8NiASowvMSCR:22 a=n87TN5wuljxrRezIQYnT:22 :: 100.00
+
+--1622415988-eximdsn-1884417833
+Content-type: text/rfc822-headers
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1lnUVo-000X2i-H4
+	for kmcaulay@shfinc.org; Sun, 30 May 2021 16:06:28 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 191.96.100.239, 172.70.38.8
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 172.70.38.8
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1622415988www.settlementhousingfund.org>
+X-Sender-IP: 172.70.38.8
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="771a8d3bee637389990d1cdadb0952ea"
+Date: Sun, 30 May 2021 16:06:28 -0700
+X-Exim-DSN-Information: Due to administrative limits only headers are returned
+
+
+--1622415988-eximdsn-1884417833--

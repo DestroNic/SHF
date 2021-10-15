@@ -1,0 +1,90 @@
+--- 
+files: 
+  certificate: 
+    gdmig_settlementhousingfund_org_cd9a3_771c9_1652037495_b10391e4383347b4c72761009ec1bfe6: 
+      created: '1620501496'
+      domains: 
+        - gdmig-settlementhousingfund.org
+        - mail.gdmig-settlementhousingfund.org
+        - www.gdmig-settlementhousingfund.org
+        - cpanel.gdmig-settlementhousingfund.org
+        - webmail.gdmig-settlementhousingfund.org
+        - webdisk.gdmig-settlementhousingfund.org
+        - cpcontacts.gdmig-settlementhousingfund.org
+        - cpcalendars.gdmig-settlementhousingfund.org
+        - autodiscover.gdmig-settlementhousingfund.org
+      friendly_name: Cert for “gdmig-settlementhousingfund.org”
+      id: gdmig_settlementhousingfund_org_cd9a3_771c9_1652037495_b10391e4383347b4c72761009ec1bfe6
+      is_self_signed: 1
+      issuer.commonName: gdmig-settlementhousingfund.org
+      issuer.organizationName: ~
+      modulus: cd9a3c5cbf203bf48c3f9ad54fda6a04bb5e0842fa6cafbdee57e32f9d356b227dbf73f83a9bbe2ab539866a9765db621843bb1b8bc572561f28d6778abe6f3ac8cb0854675ce30eced665dcd887e91231e587a7a14d45a4686797ae3f701b01dd6481465680c064fedf30a56d43c263047f0f97c36f5d65ad453118a0fdde7c31e7e54c8656ed953d376c9064746e747a125c2c7076b1939f53fb2eec3ff56ffaccf52475ae95a5722aafb8c6b778b3809f4d302c83cc175a647fca96b084190b8fb7bcf4a78f12c897167d13caf126940b6cfbd5e38093ef8600bed5a51621d9bce6168ea8a306cb087060373bf60fbe5972f478e7b2f27a7dde12e86771c9
+      modulus_length: 2048
+      not_after: '1652037495'
+      not_before: '1620501495'
+      serial: 018302d10a
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: gdmig-settlementhousingfund.org
+      validation_type: ~
+    settlementhousingfund_org_b4f8c_0b161_1652037992_9b2ec3ee594800903ac0a9ecded525cc: 
+      created: '1620501993'
+      domains: 
+        - settlementhousingfund.org
+        - mail.settlementhousingfund.org
+        - www.settlementhousingfund.org
+        - cpanel.settlementhousingfund.org
+        - webmail.settlementhousingfund.org
+        - webdisk.settlementhousingfund.org
+        - cpcontacts.settlementhousingfund.org
+        - cpcalendars.settlementhousingfund.org
+        - autodiscover.settlementhousingfund.org
+      friendly_name: Cert for “settlementhousingfund.org”
+      id: settlementhousingfund_org_b4f8c_0b161_1652037992_9b2ec3ee594800903ac0a9ecded525cc
+      is_self_signed: 1
+      issuer.commonName: settlementhousingfund.org
+      issuer.organizationName: ~
+      modulus: b4f8c1612e3b44f7a48682e5a6a1ec2f8da302745539cfb543172a19d9f273af3fc002e88101a534d10099c05bb328e082564be377cae54b681e5fd38ba704296cfb3f1d3220080626096f7531943c5def25974d009dd6fb5182fb1d7ec2b2af75e06825e40e690d2d81f42e83d6f8ec561e1aca18a18ef10656f7a6fd99ba9baf630a6b3df88dfa42780bbc4a0e50d5469e86dcad7b816d9461c174c601d721ad1d49031c22f185f8c69e4f2be1a64943f66948f7c66aa55a18beb3429c609207321ad05c7809111deaba7e175da847fc8b520f0a353adf706c69646a99092157e5bd1be5988ed3ab05665a078b39cefd90a24deb210e0c668a885952f0b161
+      modulus_length: 2048
+      not_after: '1652037992'
+      not_before: '1620501992'
+      serial: 2c432271
+      signature_algorithm: sha256WithRSAEncryption
+      subject.commonName: settlementhousingfund.org
+      validation_type: ~
+  key: 
+    b4f8c_0b161_3132cd4660c1ea9a563f7051a803ee7e: 
+      created: '1620501993'
+      friendly_name: Key for “settlementhousingfund.org”
+      id: b4f8c_0b161_3132cd4660c1ea9a563f7051a803ee7e
+      modulus: b4f8c1612e3b44f7a48682e5a6a1ec2f8da302745539cfb543172a19d9f273af3fc002e88101a534d10099c05bb328e082564be377cae54b681e5fd38ba704296cfb3f1d3220080626096f7531943c5def25974d009dd6fb5182fb1d7ec2b2af75e06825e40e690d2d81f42e83d6f8ec561e1aca18a18ef10656f7a6fd99ba9baf630a6b3df88dfa42780bbc4a0e50d5469e86dcad7b816d9461c174c601d721ad1d49031c22f185f8c69e4f2be1a64943f66948f7c66aa55a18beb3429c609207321ad05c7809111deaba7e175da847fc8b520f0a353adf706c69646a99092157e5bd1be5988ed3ab05665a078b39cefd90a24deb210e0c668a885952f0b161
+      modulus_length: 2048
+    cd9a3_771c9_0b60e46ab377a47bdac7bb006c972ca7: 
+      created: '1620501496'
+      friendly_name: Key for “gdmig-settlementhousingfund.org”
+      id: cd9a3_771c9_0b60e46ab377a47bdac7bb006c972ca7
+      modulus: cd9a3c5cbf203bf48c3f9ad54fda6a04bb5e0842fa6cafbdee57e32f9d356b227dbf73f83a9bbe2ab539866a9765db621843bb1b8bc572561f28d6778abe6f3ac8cb0854675ce30eced665dcd887e91231e587a7a14d45a4686797ae3f701b01dd6481465680c064fedf30a56d43c263047f0f97c36f5d65ad453118a0fdde7c31e7e54c8656ed953d376c9064746e747a125c2c7076b1939f53fb2eec3ff56ffaccf52475ae95a5722aafb8c6b778b3809f4d302c83cc175a647fca96b084190b8fb7bcf4a78f12c897167d13caf126940b6cfbd5e38093ef8600bed5a51621d9bce6168ea8a306cb087060373bf60fbe5972f478e7b2f27a7dde12e86771c9
+      modulus_length: 2048
+indexes: 
+  certificate: 
+    modulus: 
+      b4f8c1612e3b44f7a48682e5a6a1ec2f8da302745539cfb543172a19d9f273af3fc002e88101a534d10099c05bb328e082564be377cae54b681e5fd38ba704296cfb3f1d3220080626096f7531943c5def25974d009dd6fb5182fb1d7ec2b2af75e06825e40e690d2d81f42e83d6f8ec561e1aca18a18ef10656f7a6fd99ba9baf630a6b3df88dfa42780bbc4a0e50d5469e86dcad7b816d9461c174c601d721ad1d49031c22f185f8c69e4f2be1a64943f66948f7c66aa55a18beb3429c609207321ad05c7809111deaba7e175da847fc8b520f0a353adf706c69646a99092157e5bd1be5988ed3ab05665a078b39cefd90a24deb210e0c668a885952f0b161: 
+        settlementhousingfund_org_b4f8c_0b161_1652037992_9b2ec3ee594800903ac0a9ecded525cc: ~
+      cd9a3c5cbf203bf48c3f9ad54fda6a04bb5e0842fa6cafbdee57e32f9d356b227dbf73f83a9bbe2ab539866a9765db621843bb1b8bc572561f28d6778abe6f3ac8cb0854675ce30eced665dcd887e91231e587a7a14d45a4686797ae3f701b01dd6481465680c064fedf30a56d43c263047f0f97c36f5d65ad453118a0fdde7c31e7e54c8656ed953d376c9064746e747a125c2c7076b1939f53fb2eec3ff56ffaccf52475ae95a5722aafb8c6b778b3809f4d302c83cc175a647fca96b084190b8fb7bcf4a78f12c897167d13caf126940b6cfbd5e38093ef8600bed5a51621d9bce6168ea8a306cb087060373bf60fbe5972f478e7b2f27a7dde12e86771c9: 
+        gdmig_settlementhousingfund_org_cd9a3_771c9_1652037495_b10391e4383347b4c72761009ec1bfe6: ~
+    subject.commonName: 
+      gdmig-settlementhousingfund.org: 
+        gdmig_settlementhousingfund_org_cd9a3_771c9_1652037495_b10391e4383347b4c72761009ec1bfe6: ~
+      settlementhousingfund.org: 
+        settlementhousingfund_org_b4f8c_0b161_1652037992_9b2ec3ee594800903ac0a9ecded525cc: ~
+uniques: 
+  certificate: 
+    friendly_name: 
+      Cert for “gdmig-settlementhousingfund.org”: gdmig_settlementhousingfund_org_cd9a3_771c9_1652037495_b10391e4383347b4c72761009ec1bfe6
+      Cert for “settlementhousingfund.org”: settlementhousingfund_org_b4f8c_0b161_1652037992_9b2ec3ee594800903ac0a9ecded525cc
+  key: 
+    friendly_name: 
+      Key for “gdmig-settlementhousingfund.org”: cd9a3_771c9_0b60e46ab377a47bdac7bb006c972ca7
+      Key for “settlementhousingfund.org”: b4f8c_0b161_3132cd4660c1ea9a563f7051a803ee7e
+    modulus: 
+      b4f8c1612e3b44f7a48682e5a6a1ec2f8da302745539cfb543172a19d9f273af3fc002e88101a534d10099c05bb328e082564be377cae54b681e5fd38ba704296cfb3f1d3220080626096f7531943c5def25974d009dd6fb5182fb1d7ec2b2af75e06825e40e690d2d81f42e83d6f8ec561e1aca18a18ef10656f7a6fd99ba9baf630a6b3df88dfa42780bbc4a0e50d5469e86dcad7b816d9461c174c601d721ad1d49031c22f185f8c69e4f2be1a64943f66948f7c66aa55a18beb3429c609207321ad05c7809111deaba7e175da847fc8b520f0a353adf706c69646a99092157e5bd1be5988ed3ab05665a078b39cefd90a24deb210e0c668a885952f0b161: b4f8c_0b161_3132cd4660c1ea9a563f7051a803ee7e
+      cd9a3c5cbf203bf48c3f9ad54fda6a04bb5e0842fa6cafbdee57e32f9d356b227dbf73f83a9bbe2ab539866a9765db621843bb1b8bc572561f28d6778abe6f3ac8cb0854675ce30eced665dcd887e91231e587a7a14d45a4686797ae3f701b01dd6481465680c064fedf30a56d43c263047f0f97c36f5d65ad453118a0fdde7c31e7e54c8656ed953d376c9064746e747a125c2c7076b1939f53fb2eec3ff56ffaccf52475ae95a5722aafb8c6b778b3809f4d302c83cc175a647fca96b084190b8fb7bcf4a78f12c897167d13caf126940b6cfbd5e38093ef8600bed5a51621d9bce6168ea8a306cb087060373bf60fbe5972f478e7b2f27a7dde12e86771c9: cd9a3_771c9_0b60e46ab377a47bdac7bb006c972ca7

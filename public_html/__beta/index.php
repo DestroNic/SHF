@@ -1,0 +1,1 @@
+<?php header('Location: http://www.settlementhousingfund.org/beta/index.html'); ?>

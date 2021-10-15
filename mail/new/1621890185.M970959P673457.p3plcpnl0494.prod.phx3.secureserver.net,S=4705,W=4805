@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id OLcAOIkUrGCxRgoASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Mon, 24 May 2021 14:03:05 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Mon, 24 May 2021 14:03:05 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1llHj7-002wdl-SC
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Mon, 24 May 2021 14:03:05 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1621890185www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1621890185-eximdsn-157495320
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1llHj7-002wdl-SC@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Mon, 24 May 2021 14:03:05 -0700
+
+--1621890185-eximdsn-157495320
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 lHj7lFvqzgwVB :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=OeZdsjfY c=1 sm=1 tr=0 ts=60ac1489 p=90li8wxq69QA:10 p=eGRd5zYgAAAA:8 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=5FLXtPjwQuUA:10 a=AAz-KY0OpL25m5hj0eIA:9 a=wPNLvfGTeEIA:10 a=esBhIm2cqQQA:10 a=f9YV73T3c8T2ZA2UQXKy:22 a=pHzHmUro8NiASowvMSCR:22 a=n87TN5wuljxrRezIQYnT:22 ::
+    100.00
+
+--1621890185-eximdsn-157495320
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 lHj7lFvqzgwVB :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=OeZdsjfY c=1 sm=1 tr=0 ts=60ac1489 p=90li8wxq69QA:10 p=eGRd5zYgAAAA:8 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=5FLXtPjwQuUA:10 a=AAz-KY0OpL25m5hj0eIA:9 a=wPNLvfGTeEIA:10 a=esBhIm2cqQQA:10 a=f9YV73T3c8T2ZA2UQXKy:22 a=pHzHmUro8NiASowvMSCR:22 a=n87TN5wuljxrRezIQYnT:22 :: 100.00
+
+--1621890185-eximdsn-157495320
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1llHj7-002wdL-Mw
+	for kmcaulay@shfinc.org; Mon, 24 May 2021 14:03:05 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 138.199.36.133, 162.158.91.183
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 162.158.91.183
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1621890185www.settlementhousingfund.org>
+X-Sender-IP: 162.158.91.183
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="316a6fe98480be9cb9fc0dbcf3b9bc60"
+Date: Mon, 24 May 2021 14:03:05 -0700
+
+--316a6fe98480be9cb9fc0dbcf3b9bc60
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Bergey Bergey
+Business Name: Scott
+Email: scott@join411directory.com
+Phone: 87156772579
+Address: 
+Miami
+Miami, United States 145111
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Scott Bergey here, introducing myself as your new territory manager for 411.directory (your county just opened up). Let me know if you want to grab the spot. We only charge $199/year for county exclusivity as we only work with one business in each county. This explains everything that is included with the membership: http://www.join411directory.com/
+
+---------------------------------------------------------------
+
+end of message
+
+--316a6fe98480be9cb9fc0dbcf3b9bc60--
+
+
+
+--1621890185-eximdsn-157495320--

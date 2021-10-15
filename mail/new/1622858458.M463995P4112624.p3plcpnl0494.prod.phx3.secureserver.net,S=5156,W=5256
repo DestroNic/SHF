@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id 4ESKGdraumDwwD4ASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Fri, 04 Jun 2021 19:00:58 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Fri, 04 Jun 2021 19:00:58 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1lpLcQ-00HLLv-BQ
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Fri, 04 Jun 2021 19:00:58 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1622858458www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1622858458-eximdsn-1759544253
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lpLcQ-00HLLv-BQ@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Fri, 04 Jun 2021 19:00:58 -0700
+
+--1622858458-eximdsn-1759544253
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 pLcQlPCInyRGM :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=Aq4rYMxP c=1 sm=1 tr=0 ts=60badada p=C0NG6PwHAAAA:8 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=r6YtysWOX24A:10 a=VN8I6mVAu3wA:10 a=HgbDHJuKAAAA:8 a=-U_HOF510M_e_lQIhlQA:9 a=wPNLvfGTeEIA:10 a=e6MfqFjSRkQA:10 a=lC7vdTsftEbk28xm5WQp:22 a=pHzHmUro8NiASowvMSCR:22 a=n87TN5wuljxrRezIQYnT:22 ::
+    100.00
+
+--1622858458-eximdsn-1759544253
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 pLcQlPCInyRGM :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=Aq4rYMxP c=1 sm=1 tr=0 ts=60badada p=C0NG6PwHAAAA:8 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=r6YtysWOX24A:10 a=VN8I6mVAu3wA:10 a=HgbDHJuKAAAA:8 a=-U_HOF510M_e_lQIhlQA:9 a=wPNLvfGTeEIA:10 a=e6MfqFjSRkQA:10 a=lC7vdTsftEbk28xm5WQp:22 a=pHzHmUro8NiASowvMSCR:22 a=n87TN5wuljxrRezIQYnT:22 :: 100.00
+
+--1622858458-eximdsn-1759544253
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1lpLcQ-00HLHs-5T
+	for kmcaulay@shfinc.org; Fri, 04 Jun 2021 19:00:58 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 104.245.145.11, 108.162.241.58
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 108.162.241.58
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1622858458www.settlementhousingfund.org>
+X-Sender-IP: 108.162.241.58
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="859717f4e730acdc4a70dc1de68e1786"
+Date: Fri, 04 Jun 2021 19:00:58 -0700
+
+--859717f4e730acdc4a70dc1de68e1786
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Bettye Carney
+Business Name: Bettye Carney
+Email: 9cdali145k@pokesenak.buzz
+Phone: 02.75.77.01.40
+Address: 
+74 Boulevard Amiral Courbet
+Orvault, PAYS DE LA LOIRE 44700
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Have you ever run any ads for your website only to find out that you end up paying more for the ad cost than you make back in profit? It's not really hard to imagine that scenario especially when Google charges $10 per click for some niches. We run ads on popular sites like cnn.com for you and generate traffic to your site without any cost per click ever! You choose your traffic volume and pay one flat fee and we deliver niche targeted, quality visitors to your site. It's that easy and if you're not satisfied, we're happy to give you a full refund. How much better can it get than that? Check out our plans now: http://www2.keywordtargetedwebtraffic.com
+
+---------------------------------------------------------------
+
+end of message
+
+--859717f4e730acdc4a70dc1de68e1786--
+
+
+
+--1622858458-eximdsn-1759544253--

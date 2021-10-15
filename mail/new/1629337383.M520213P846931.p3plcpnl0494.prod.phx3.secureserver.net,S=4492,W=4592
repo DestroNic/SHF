@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id c+1eHSe3HWFT7AwASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Wed, 18 Aug 2021 18:43:03 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Wed, 18 Aug 2021 18:43:03 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1mGX5D-003YJm-DO
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Wed, 18 Aug 2021 18:43:03 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1629337381www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1629337383-eximdsn-1030366779
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mGX5D-003YJm-DO@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Wed, 18 Aug 2021 18:43:03 -0700
+
+--1629337383-eximdsn-1030366779
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 GX5DmlDitPxhm :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=MJalJOVl c=1 sm=1 tr=0 ts=611db727 p=BF2h6W6CAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=MhDmnRu9jo8A:10 a=DP7AGlscAmAA:10 a=pGLkceISAAAA:8 a=m8mLzL50-zuU68SlsdwA:9 a=wPNLvfGTeEIA:10 a=1F6nZmOf948A:10 a=ntLmmrG-IK0A:10 a=ZUDq5m1Bv0QA:10 a=INQizlgREXzVG3kMtYVq:22 ::
+    100.00
+
+--1629337383-eximdsn-1030366779
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 GX5DmlDitPxhm :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=MJalJOVl c=1 sm=1 tr=0 ts=611db727 p=BF2h6W6CAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=MhDmnRu9jo8A:10 a=DP7AGlscAmAA:10 a=pGLkceISAAAA:8 a=m8mLzL50-zuU68SlsdwA:9 a=wPNLvfGTeEIA:10 a=1F6nZmOf948A:10 a=ntLmmrG-IK0A:10 a=ZUDq5m1Bv0QA:10 a=INQizlgREXzVG3kMtYVq:22 :: 100.00
+
+--1629337383-eximdsn-1030366779
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1mGX5B-003Y2X-BZ
+	for kmcaulay@shfinc.org; Wed, 18 Aug 2021 18:43:01 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 212.102.33.159, 172.70.114.134
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 172.70.114.134
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1629337381www.settlementhousingfund.org>
+X-Sender-IP: 172.70.114.134
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="9e345b7af40ab4118f3337a54e54babe"
+Date: Wed, 18 Aug 2021 18:43:01 -0700
+
+--9e345b7af40ab4118f3337a54e54babe
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Zachary Margis Stephaine Jossund
+Business Name: Laree Trybala
+Email: LeesaSheahan@gmail.com
+Phone: 
+Address: 
+
+,  
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+7 Ways To Promote Your Business Online For Free : https://bit.ly/free-ads-here
+
+---------------------------------------------------------------
+
+end of message
+
+--9e345b7af40ab4118f3337a54e54babe--
+
+
+
+--1629337383-eximdsn-1030366779--

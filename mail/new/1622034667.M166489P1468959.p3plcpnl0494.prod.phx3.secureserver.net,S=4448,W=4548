@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id QOfWOOpIrmAfahYASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Wed, 26 May 2021 06:11:06 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Wed, 26 May 2021 06:11:07 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1lltJS-006HBk-S6
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Wed, 26 May 2021 06:11:06 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1622034666www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1622034666-eximdsn-984887362
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lltJS-006HBk-S6@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Wed, 26 May 2021 06:11:06 -0700
+
+--1622034666-eximdsn-984887362
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 ltJSlk5SlX6yy :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=ac6kITkt c=1 sm=1 tr=0 ts=60ae48ea p=SJuwsBk4qtkA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=5FLXtPjwQuUA:10 a=RgBw9RmQAAAA:8 a=VimMg0Ea1rcBECj5rR4A:9 a=wPNLvfGTeEIA:10 a=pCy-ipI8KygA:10 a=cQYTOtXdAOEA:10 a=hgk1kU607xkA:10 a=pHzHmUro8NiASowvMSCR:22 a=n87TN5wuljxrRezIQYnT:22 ::
+    100.00
+
+--1622034666-eximdsn-984887362
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 ltJSlk5SlX6yy :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=ac6kITkt c=1 sm=1 tr=0 ts=60ae48ea p=SJuwsBk4qtkA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=5FLXtPjwQuUA:10 a=RgBw9RmQAAAA:8 a=VimMg0Ea1rcBECj5rR4A:9 a=wPNLvfGTeEIA:10 a=pCy-ipI8KygA:10 a=cQYTOtXdAOEA:10 a=hgk1kU607xkA:10 a=pHzHmUro8NiASowvMSCR:22 a=n87TN5wuljxrRezIQYnT:22 :: 100.00
+
+--1622034666-eximdsn-984887362
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1lltJS-006HBO-Kz
+	for kmcaulay@shfinc.org; Wed, 26 May 2021 06:11:06 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 190.2.131.175, 141.101.107.162
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 141.101.107.162
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1622034666www.settlementhousingfund.org>
+X-Sender-IP: 141.101.107.162
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="7430e4cd899de1438319ff3b36edab9e"
+Date: Wed, 26 May 2021 06:11:06 -0700
+
+--7430e4cd899de1438319ff3b36edab9e
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: nym2147997kryaGB nam2147997kryaGB
+Business Name: nem2147997tetcher
+Email: sasha.basha.bashashkin@mail.ru
+Phone: 86663739933
+Address: 
+Klimmen
+Klimmen, Netherlands 113131
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+mys2147997utr yukrkAE YGqR XXEal5E
+
+---------------------------------------------------------------
+
+end of message
+
+--7430e4cd899de1438319ff3b36edab9e--
+
+
+
+--1622034666-eximdsn-984887362--

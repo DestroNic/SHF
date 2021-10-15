@@ -1,0 +1,10 @@
+AddType application/x-httpd-php .html
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule !\.(js|ico|gif|jpg|css)$ /beta/content.php [L]
+
+RewriteEngine on
+rewritecond %{http_host} ^settlementhousingfund.org [nc]
+rewriterule ^(.*)$ http://www.settlementhousingfund.org/beta/$1 [r=301,nc]

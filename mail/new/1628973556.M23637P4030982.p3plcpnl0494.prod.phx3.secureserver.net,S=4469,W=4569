@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id EFzCNfMpGGEGgj0ASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Sat, 14 Aug 2021 13:39:15 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Sat, 14 Aug 2021 13:39:16 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1mF0R1-00Gyls-R1
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Sat, 14 Aug 2021 13:39:15 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1628973555www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1628973555-eximdsn-1218128741
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mF0R1-00Gyls-R1@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Sat, 14 Aug 2021 13:39:15 -0700
+
+--1628973555-eximdsn-1218128741
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 F0R1m6L5mNpW3 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=IsXbzJzg c=1 sm=1 tr=0 ts=611829f3 p=WJgaJlYMAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=MhDmnRu9jo8A:10 a=tPA4oi7gL4wA:10 a=umqyHN846P6CFIEw4x8A:9 a=wPNLvfGTeEIA:10 a=6FIvSjxa5LMA:10 a=OGM-IP4Dk1MA:10 a=94AGJy5irUqrrfiBg_Cj:22 ::
+    100.00
+
+--1628973555-eximdsn-1218128741
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 F0R1m6L5mNpW3 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=IsXbzJzg c=1 sm=1 tr=0 ts=611829f3 p=WJgaJlYMAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=MhDmnRu9jo8A:10 a=tPA4oi7gL4wA:10 a=umqyHN846P6CFIEw4x8A:9 a=wPNLvfGTeEIA:10 a=6FIvSjxa5LMA:10 a=OGM-IP4Dk1MA:10 a=94AGJy5irUqrrfiBg_Cj:22 :: 100.00
+
+--1628973555-eximdsn-1218128741
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1mF0R1-00GyjX-Jd
+	for kmcaulay@shfinc.org; Sat, 14 Aug 2021 13:39:15 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 156.146.36.114, 172.70.114.82
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 172.70.114.82
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1628973555www.settlementhousingfund.org>
+X-Sender-IP: 172.70.114.82
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="379af6e5c40d5804b7607e24e0ed2439"
+Date: Sat, 14 Aug 2021 13:39:15 -0700
+
+--379af6e5c40d5804b7607e24e0ed2439
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Tory Menzies
+Business Name: Tory Menzies
+Email: hshivanisingh950@firt.site
+Phone: 
+Address: 
+Ruster Strasse 32
+Pamet, BURGENLAND 4083
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+How to earn extra cash with your website without doing a thing: https://bit.ly/cash-in-on-affiliate-marketing
+
+---------------------------------------------------------------
+
+end of message
+
+--379af6e5c40d5804b7607e24e0ed2439--
+
+
+
+--1628973555-eximdsn-1218128741--

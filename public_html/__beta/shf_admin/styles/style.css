@@ -1,0 +1,469 @@
+html, body { 
+    margin: 0;
+    padding: 0;
+    font-family: "Tahoma",Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    text-align: center;
+    background: #ffffff url('../images/bg.jpg') 0 50% repeat-x;
+    color: #b5c3ce;
+}
+
+img { border: 0 none; }
+a{
+    text-decoration: none;
+    color: #888888;
+    outline: none;
+}
+
+a:hover { color: #0092b2;  }
+
+
+
+
+#theTop,
+#theBody,
+#theFooter {
+    height: 42px;
+    width: 750px;
+    margin: 0 auto;
+    border-left: 1px solid #b5c3ce;
+    border-right: 1px solid #b5c3ce;
+    background: #ffffff;
+    text-align: left;
+}
+
+#theBody {
+    height: auto;
+}
+
+#theBody div#theContent,
+#theBody div#theRightContent {
+    padding: 10px;
+}
+
+#theNavigation {
+    width: 760px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 auto;
+    border: 1px solid #b5c3ce;
+    text-align: left;
+    background: #ffffff;
+}
+
+#theNavigation a {
+    color: #b5c3ce;
+    text-decoration: none;
+    padding: 3px 7px;
+    line-height: 20px;
+}
+
+#theNavigation a:hover {
+    background: #b5c3ce;
+    color: #ffffff;
+}
+
+#theLeft {
+    float: left;
+    display: inline;
+    background: #e9e9e9;
+    width: 195px;
+    margin: 0;
+    height: 1052px;
+    padding: 0 0 10px 0;
+    border-right: 1px solid #cccccc;
+}
+
+#theRight {
+    float: left;
+    display: inline;
+    width: 565px;
+    height: 100%;
+    text-align: left;
+    margin: 0 0 0 -6px;
+}
+
+#theBody div#theContent div#theSideNavigation {
+    float: left;
+    display: inline;
+    width: 150px;
+    border: 1px solid #195a82;    
+    background: #b5c3ce;
+}
+
+#theBody div#theContent div#theSideNavigation p {
+    color: #195a82;
+    margin: 5px;
+    font-size: 10px;
+}
+
+#theBody div#theContent div#theSideNavigation h2 {
+    color: #195a82;
+    margin: 3px;
+    font-size: 14px;
+    font-variant: small-caps;
+    text-align: left;
+}
+
+#theBody div#theContent div#theSideNavigation a,
+#theBody div#theContent div#theSideNavigation h4,
+#theBody div#theContent div#theSideNavigation h1 {
+    margin: -1px 0 0;
+    display: block;
+    border-top: 1px solid #195a82;
+    padding: 3px 5px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #195a82;
+}
+
+#theBody div#theContent div#theSideNavigation h1 {
+    font-size: 14px;
+    font-variant: small-caps;
+    text-align: center;
+    font-weight: bold;
+}
+
+#theBody div#theContent div#theSideNavigation h4 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#theBody div#theContent div#theSideNavigation a:hover {
+    color: #000000;
+}
+
+#theBody div#theContent div#theInfo {
+    float: left;
+    display: inline;
+    width: 550px;
+    margin: 0 0 0 10px;
+}
+
+#theInfo div.template_box {
+    width: 170px;
+    padding: 10px;
+    margin: 10px;
+    height: 200px;
+    text-align: center;
+    border: 1px solid #195a82;
+    float: left;
+    display: inline;
+}
+
+div.fform_yes {
+    clear: both;
+    margin: 10px 0;
+}
+    
+
+#theInfo div.fform {
+    clear: both;
+    margin: 10px;
+    text-align: left;
+}
+
+#theInfo div.fform a.nice_butt {
+    -x-system-font:none;
+    background:transparent none repeat scroll 0 0;
+    border-width:0;
+    color:#333333;
+    display:inline-block;
+    font-family:Arial,Sans-serif;
+    font-size:100%;
+    font-size-adjust:none;
+    font-stretch:normal;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+    line-height:1.2;
+    margin:0;
+    overflow:visible;
+    padding:3px 0;
+    text-decoration:none;
+}
+
+#theInfo div.fform a.nice_butt span {
+    background:#DDDDDD;
+    border-left:1px solid #BBBBBB;
+    border-right:1px solid #AAAAAA;
+    margin:0;
+    padding:3px 0;
+}
+
+#theInfo div.fform a.nice_butt span span { 
+    border-bottom:1px solid #AAAAAA;
+    border-top:1px solid #BBBBBB;
+    border-width:1px 0;
+    padding:3px 0.4em;
+    position:relative;
+}
+
+#theInfo div.fform a.nice_butt:hover,
+#theInfo div.fform a.nice_butt:hover span,
+#theInfo div.fform a.nice_butt:hover span span {
+    color: #0092b2;
+    border-color: #0092b2 !important;
+}
+
+
+#theInfo div.fform h3 {
+    font-size: 14px;
+    color: #333333;
+    margin: 5px 10px;
+}
+
+#theInfo div.fform h3 span {
+    font-size: 16px;
+    font-variant: small-caps;
+    color: #000000;
+}
+
+#theInfo div.fform label {
+    width: 100px;
+    text-align: right;
+    float: left;
+    margin: 5px 5px 0 0;
+    padding: 5px 0 0 0;
+}
+
+#theInfo div.fform div.txtarea {
+    float: left;
+    display: inline;
+    width: 149px;
+}
+
+#theInfo div.fform label.no_float {
+    float: none;
+    clear: both;
+}
+
+#theInfo div#list {
+    width: 550px;
+    margin: 5px auto;
+    border: 1px solid #195a82;
+}
+
+#theInfo div#list div.row {
+    background: #b5c3ce;
+    line-height: 25px;
+    height: 25px;
+    border-bottom: 1px solid #195a82;
+    color: #333333;
+}
+
+#theInfo div#list div.off {
+    background: #ffffff;
+}
+
+#theInfo div#list div.row div.title {
+    width: 300px;
+    text-align: left;
+    margin: 0 0 0 10px;
+    float: left;
+    display: inline;
+}
+
+#theInfo div#list div.row div.links {
+    width: 230px;
+    text-align: right;
+    float: left;
+    display: inline;
+    margin: 0;
+}
+
+#theInfo div#list div.row div.links a.remover {
+    font-size: 11px;
+}
+
+.contents {
+    width: 580px;
+    height: 20px;
+    border-bottom: 1px solid #000000;
+    line-height:20px;
+    font-size: 14px;
+    text-align: left;
+}
+
+.head {
+    background: #cccccc;
+    color: #4b6175;
+    font-weight: bold;
+    font-size: 16px;
+    border-top: 1px solid #000000;
+}
+
+.alt {
+    background: #dddddd;
+}
+
+.contents .link {
+    float: left;
+    display: inline;
+    width: 300px;
+}
+
+.contents .check {
+    float: left;
+    display: inline;
+    width: 100px;
+    text-align: center;
+}
+
+.content .check {
+    float: left;
+    display: inline;
+    width: 45px;
+}
+    
+
+#form_box {
+    margin: 10px 20px;
+}
+
+#form_box a.add_field {
+    line-height: 20px;
+    height: 20px;
+    background: url('../images/plus2.jpg') 100% 0 no-repeat;
+    padding: 3px 25px 3px 0;
+}
+
+#form_box a.add_field:hover {
+    background-position: 100% 100%;
+}
+/*
+#form_box label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+    padding: 0 5px 0 0;
+}
+
+*/
+
+#form_box label {
+    float: left;
+    display: inline;
+    font-size: 12px;
+    color: #6a3d1b;
+    text-align: right;
+    margin: 10px 5px;
+    width: 150px;
+    height: 20px;
+    clear: left;
+}
+
+#form_box input[type=text],
+#form_box input[type=password],
+#form_box input[type=checkbox],
+select {
+    float: left;
+    display: inline;
+    font-size: 12px;
+    padding: 4px;
+    width: 125px;
+    text-align: left;
+    margin: 5px;
+    color: #34485b;
+}
+
+#form_box input[type=checkbox] {
+    width: 20px;
+    margin: 12px 2px 0;
+}
+
+textarea {
+    float: left;
+    display: inline;
+    font-size: 12px;
+    padding: 4px;
+    text-align: left;
+    margin: 5px;
+    color: #34485b;
+}
+
+#form_box input[type=submit] {
+    clear: left;
+    float: right;
+    font-size: 20px;
+    margin-right: 115px;
+}
+
+span.sub_input, .nice_button { 
+    float: left;
+    display: inline;
+    font-size: 14px;
+    color: #888888;
+    font-style: italic;
+    line-height: 35px;
+    height: 35px;
+    vertical-align: middle;
+    padding: 5px 0 0 0;
+    margin: 0 10px 0 3px;
+}
+
+div.fform span.sub_input {
+    height: auto;
+    line-height: normal;
+}
+
+
+#contentHolder span.sub_input input {
+    margin: 0;
+}
+
+#form_box  input[type=submit].nice_pos, 
+#form_box input[type=button].nice_pos {
+    float: left;
+    display: inline;
+    margin: 5px 5px 5px 184px;
+}
+
+
+#theFooter { 
+    border-bottom: 1px solid #b5c3ce;
+    padding-top: 20px;
+}
+
+#theFooter p {
+    margin: 0 25px;
+    border-top: 1px solid #b5c3ce;
+    text-align: center;
+}
+
+/*
+#theBody div#theContent div.rrow {
+    clear: both;
+    margin: 5px 0;
+}
+
+#theBody div#theContent div.rrow div.label {
+    float: left;
+    display: inline;
+    width: 240px;
+    text-align: right;
+    margin: 0 5px 0 0;
+}
+
+#theBody div#theContent div.rrow div.fform {
+    float: left;
+    display: inline;
+    text-align: left;
+    width: 450px;
+}
+
+*/
+.clearfix:after, 
+#theBody div#theContent div#select_postcard:after, #theInfo div#list div.row:after,
+#theBody div#theContent div.rrow:after, #theBody div#theContent:after, div#form_box:after, div.fform:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */

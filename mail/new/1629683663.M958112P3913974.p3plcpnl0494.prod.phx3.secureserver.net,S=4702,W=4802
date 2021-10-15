@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id AFWZNM//ImH2uDsASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Sun, 22 Aug 2021 18:54:23 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Sun, 22 Aug 2021 18:54:23 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1mHzAN-00GR0u-Q9
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Sun, 22 Aug 2021 18:54:23 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1629683663www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1629683663-eximdsn-751243740
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mHzAN-00GR0u-Q9@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Sun, 22 Aug 2021 18:54:23 -0700
+
+--1629683663-eximdsn-751243740
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 HzANmXkOHNpW3 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=IsXbzJzg c=1 sm=1 tr=0 ts=6122ffcf p=E9E5TxSH0uIA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=MhDmnRu9jo8A:10 a=pGLkceISAAAA:8 a=zbdnJD9GAAAA:20 a=d4QtYMps7CsakMcAzUgA:9 a=wPNLvfGTeEIA:10 a=MLZkGL5fNVQA:10 a=amamshWWIe4A:10 a=qIxKJ8xb1qIA:10 a=PpvQEwnPbwYA:10 a=zyOlSIEiz4EA:10 a=DWT1Zzt0YnSR6jdZF7OP:22 ::
+    96.00
+
+--1629683663-eximdsn-751243740
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 HzANmXkOHNpW3 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=IsXbzJzg c=1 sm=1 tr=0 ts=6122ffcf p=E9E5TxSH0uIA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=MhDmnRu9jo8A:10 a=pGLkceISAAAA:8 a=zbdnJD9GAAAA:20 a=d4QtYMps7CsakMcAzUgA:9 a=wPNLvfGTeEIA:10 a=MLZkGL5fNVQA:10 a=amamshWWIe4A:10 a=qIxKJ8xb1qIA:10 a=PpvQEwnPbwYA:10 a=zyOlSIEiz4EA:10 a=DWT1Zzt0YnSR6jdZF7OP:22 :: 96.00
+
+--1629683663-eximdsn-751243740
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1mHzAN-00GR0f-KX
+	for kmcaulay@shfinc.org; Sun, 22 Aug 2021 18:54:23 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 46.166.187.145, 172.68.110.126
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 172.68.110.126
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1629683663www.settlementhousingfund.org>
+X-Sender-IP: 172.68.110.126
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="15d2a39373fad591b0083ced3e49fdca"
+Date: Sun, 22 Aug 2021 18:54:23 -0700
+
+--15d2a39373fad591b0083ced3e49fdca
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: symnenzype symnenzype
+Business Name: symnenzype
+Email: avadnego@gmail.com
+Phone: 83878628399
+Address: 
+Kaduna
+Kaduna, Nigeria 134434
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Cryptocurrency rates are breaking records, which means you have the opportunity to make money on cryptocurrencies. Join our system and start making money with us. Go to system: https://tinyurl.com/yegxdadx
+
+---------------------------------------------------------------
+
+end of message
+
+--15d2a39373fad591b0083ced3e49fdca--
+
+
+
+--1629683663-eximdsn-751243740--

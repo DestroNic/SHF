@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id qchDO8rQK2ELGiMASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Sun, 29 Aug 2021 11:24:10 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Sun, 29 Aug 2021 11:24:11 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1mKPTW-009eRZ-Sj
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Sun, 29 Aug 2021 11:24:10 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1630261450www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1630261450-eximdsn-282413272
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mKPTW-009eRZ-Sj@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Sun, 29 Aug 2021 11:24:10 -0700
+
+--1630261450-eximdsn-282413272
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 KPTWmjxMFNpW3 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=IsXbzJzg c=1 sm=1 tr=0 ts=612bd0ca p=NAS4e-jerEsA:10 p=UT5WP32DkR0A:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=MhDmnRu9jo8A:10 a=mem--OOHAAAA:8 a=e3wNtW5AAAAA:20 a=InxVYtl8IsayK211B7oA:9 a=wPNLvfGTeEIA:10 a=DjT05ergafcA:10 a=jTIcFe8theEA:10 a=PpvQEwnPbwYA:10 a=PaSjUSAN_jwA:10 a=QSv8LDXNDX-_6yN9_DLc:22 ::
+    100.00
+
+--1630261450-eximdsn-282413272
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 KPTWmjxMFNpW3 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=IsXbzJzg c=1 sm=1 tr=0 ts=612bd0ca p=NAS4e-jerEsA:10 p=UT5WP32DkR0A:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=MhDmnRu9jo8A:10 a=mem--OOHAAAA:8 a=e3wNtW5AAAAA:20 a=InxVYtl8IsayK211B7oA:9 a=wPNLvfGTeEIA:10 a=DjT05ergafcA:10 a=jTIcFe8theEA:10 a=PpvQEwnPbwYA:10 a=PaSjUSAN_jwA:10 a=QSv8LDXNDX-_6yN9_DLc:22 :: 100.00
+
+--1630261450-eximdsn-282413272
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1mKPTW-009eR0-8s
+	for kmcaulay@shfinc.org; Sun, 29 Aug 2021 11:24:10 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 46.166.187.72, 162.158.89.117
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 162.158.89.117
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1630261450www.settlementhousingfund.org>
+X-Sender-IP: 162.158.89.117
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="638e7fcac8fab8bc9b93e64575217097"
+Date: Sun, 29 Aug 2021 11:24:10 -0700
+
+--638e7fcac8fab8bc9b93e64575217097
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: stiftGZ stiftGZ
+Business Name: stift
+Email: baburovp@bk.ru
+Phone: 87965139628
+Address: 
+Kaduna
+Kaduna, Nigeria 135215
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Hi, this is Anna. I am sending you my intimate photos as I promised. https://tinyurl.com/yfeztc64
+
+---------------------------------------------------------------
+
+end of message
+
+--638e7fcac8fab8bc9b93e64575217097--
+
+
+
+--1630261450-eximdsn-282413272--

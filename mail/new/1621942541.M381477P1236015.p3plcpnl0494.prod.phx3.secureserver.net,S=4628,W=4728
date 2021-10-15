@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id KLCjFQ3hrGAv3BIASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Tue, 25 May 2021 04:35:41 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Tue, 25 May 2021 04:35:41 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1llVLZ-005aPm-98
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Tue, 25 May 2021 04:35:41 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1621942540www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1621942541-eximdsn-1156068083
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1llVLZ-005aPm-98@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Tue, 25 May 2021 04:35:41 -0700
+
+--1621942541-eximdsn-1156068083
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 lVLZlMstfgwVB :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=OeZdsjfY c=1 sm=1 tr=0 ts=60ace10d p=46iXUWtOAAAA:8 p=1eGlvvO1R7QA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=5FLXtPjwQuUA:10 a=po7Hz6-pa5YA:10 a=pGLkceISAAAA:8 a=J-rSeEWuScO2rPEb03oA:9 a=wPNLvfGTeEIA:10 a=VvoUFG4algUA:10 a=UYtNUTVCHFMA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=wG8tUP6NNeKLvLbgHNb9:22 a=1n5_ZYyclxdRDmDhaVdJ:22 a=Z5ABNNGmrOfJ6cZ5bIyy:22 a=SsAZrZ5W_gNWK9tOzrEV:22 ::
+    100.00
+
+--1621942541-eximdsn-1156068083
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 lVLZlMstfgwVB :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=OeZdsjfY c=1 sm=1 tr=0 ts=60ace10d p=46iXUWtOAAAA:8 p=1eGlvvO1R7QA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=5FLXtPjwQuUA:10 a=po7Hz6-pa5YA:10 a=pGLkceISAAAA:8 a=J-rSeEWuScO2rPEb03oA:9 a=wPNLvfGTeEIA:10 a=VvoUFG4algUA:10 a=UYtNUTVCHFMA:10 a=-FEs8UIgK8oA:10 a=NWVoK91CQyQA:10 a=wG8tUP6NNeKLvLbgHNb9:22 a=1n5_ZYyclxdRDmDhaVdJ:22 a=Z5ABNNGmrOfJ6cZ5bIyy:22 a=SsAZrZ5W_gNWK9tOzrEV:22 :: 100.00
+
+--1621942541-eximdsn-1156068083
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1llVLZ-005aPT-3J
+	for kmcaulay@shfinc.org; Tue, 25 May 2021 04:35:41 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 79.173.90.153, 172.68.10.208
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 172.68.10.208
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1621942540www.settlementhousingfund.org>
+X-Sender-IP: 172.68.10.208
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="0833fd21a2d44ebf54e5c026471a69e6"
+Date: Tue, 25 May 2021 04:35:41 -0700
+
+--0833fd21a2d44ebf54e5c026471a69e6
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: JaniceHesQL JaniceHesQL
+Business Name: JaniceHes
+Email: worldfchat2@gmail.com
+Phone: 88953858571
+Address: 
+Elvas
+Elvas, Portugal 151323
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Free adult chat http://2track.info/lxyn
+
+---------------------------------------------------------------
+
+end of message
+
+--0833fd21a2d44ebf54e5c026471a69e6--
+
+
+
+--1621942541-eximdsn-1156068083--

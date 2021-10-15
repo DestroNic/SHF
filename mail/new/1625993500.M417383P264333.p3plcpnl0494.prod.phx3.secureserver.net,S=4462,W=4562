@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id mKHNFhyx6mCNCAQASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Sun, 11 Jul 2021 01:51:40 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Sun, 11 Jul 2021 01:51:40 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1m2VBc-001FA0-8v
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Sun, 11 Jul 2021 01:51:40 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1625993499www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1625993500-eximdsn-1510744089
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1m2VBc-001FA0-8v@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Sun, 11 Jul 2021 01:51:40 -0700
+
+--1625993500-eximdsn-1510744089
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 2VBcmJG8SVjYq :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=60eab11c p=c3uFTfZnAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=e_q4qTt1xDgA:10 a=tRguW2rJB2kA:10 a=CjxXgO3LAAAA:8 a=upLApBZQfTHAzynF3FoA:9 a=wPNLvfGTeEIA:10 a=SuE__v2dtzcA:10 a=XW0y9ibugyYA:10 a=IawXvI9lP1MA:10 ::
+    100.00
+
+--1625993500-eximdsn-1510744089
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 2VBcmJG8SVjYq :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=60eab11c p=c3uFTfZnAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=e_q4qTt1xDgA:10 a=tRguW2rJB2kA:10 a=CjxXgO3LAAAA:8 a=upLApBZQfTHAzynF3FoA:9 a=wPNLvfGTeEIA:10 a=SuE__v2dtzcA:10 a=XW0y9ibugyYA:10 a=IawXvI9lP1MA:10 :: 100.00
+
+--1625993500-eximdsn-1510744089
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1m2VBc-001F72-3Z
+	for kmcaulay@shfinc.org; Sun, 11 Jul 2021 01:51:40 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 212.102.33.244, 172.70.117.88
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 172.70.117.88
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1625993499www.settlementhousingfund.org>
+X-Sender-IP: 172.70.117.88
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="e015f97b42c17e1365c9fa498e3a0ca1"
+Date: Sun, 11 Jul 2021 01:51:40 -0700
+
+--e015f97b42c17e1365c9fa498e3a0ca1
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Tegan Gysin Alfredo Wardrop
+Business Name: Madeline Steinberger
+Email: ElmerMilelr@yahoo.com
+Phone: 
+Address: 
+
+,  
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Here is a list of 18 free traffic sources that you should be using: http://bit.ly/18freetrafficsources
+
+---------------------------------------------------------------
+
+end of message
+
+--e015f97b42c17e1365c9fa498e3a0ca1--
+
+
+
+--1625993500-eximdsn-1510744089--

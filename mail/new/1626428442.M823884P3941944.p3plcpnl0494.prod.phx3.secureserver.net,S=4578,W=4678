@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id wB8aLhpU8WA4JjwASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Fri, 16 Jul 2021 02:40:42 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Fri, 16 Jul 2021 02:40:42 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1m4KKo-00HP0E-Mi
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Fri, 16 Jul 2021 02:40:42 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1626428442www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1626428442-eximdsn-1245750350
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1m4KKo-00HP0E-Mi@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Fri, 16 Jul 2021 02:40:42 -0700
+
+--1626428442-eximdsn-1245750350
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 4KKomQiwWR2Xd :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=SsxVVNC0 c=1 sm=1 tr=0 ts=60f1541a p=lE1raa-uli0A:10 p=BfS2yI0lAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=e_q4qTt1xDgA:10 a=CGyXV93kn3RB7ZQbkygA:9 a=wPNLvfGTeEIA:10 a=uz4RpLzcBWcA:10 a=z4hBO5k0cvEA:10 a=5U7glodGp5wA:10 a=94AGJy5irUqrrfiBg_Cj:22 ::
+    100.00
+
+--1626428442-eximdsn-1245750350
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 4KKomQiwWR2Xd :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=SsxVVNC0 c=1 sm=1 tr=0 ts=60f1541a p=lE1raa-uli0A:10 p=BfS2yI0lAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=e_q4qTt1xDgA:10 a=CGyXV93kn3RB7ZQbkygA:9 a=wPNLvfGTeEIA:10 a=uz4RpLzcBWcA:10 a=z4hBO5k0cvEA:10 a=5U7glodGp5wA:10 a=94AGJy5irUqrrfiBg_Cj:22 :: 100.00
+
+--1626428442-eximdsn-1245750350
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1m4KKo-00HOzn-HD
+	for kmcaulay@shfinc.org; Fri, 16 Jul 2021 02:40:42 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 104.254.92.188, 162.158.126.144
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 162.158.126.144
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1626428442www.settlementhousingfund.org>
+X-Sender-IP: 162.158.126.144
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="705f43e395fa5e0abd91b83edb1de9ef"
+Date: Fri, 16 Jul 2021 02:40:42 -0700
+
+--705f43e395fa5e0abd91b83edb1de9ef
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Elana Wurfel
+Business Name: Elana Wurfel
+Email: wmohamad20@gmaiiil.live
+Phone: 01.50.82.87.66
+Address: 
+77 Rue Des Lacs
+Houilles, ILE-DE-FRANCE 78800
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Now you can tap into a $12 Billion industry and earn big revenues without any investment at all. Here's how it's done: https://bit.ly/earn-huge-commissions-fast
+
+---------------------------------------------------------------
+
+end of message
+
+--705f43e395fa5e0abd91b83edb1de9ef--
+
+
+
+--1626428442-eximdsn-1245750350--

@@ -1,0 +1,238 @@
+html, body { 
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    text-align: center;
+    background: #91b4df;
+    color: #555555;
+}
+
+img { border: 0 none; }
+a{
+    color: #666666;
+    outline: none;
+}
+
+a:hover { color: #000000;  }
+
+#groundbreaking {
+    position: absolute;
+    left: 50%;
+    margin-left: 25px;
+    top: 30px;
+    background: url('../images/cream_bg.jpg');
+    width: 440px;
+    height: 240px;
+}
+
+#theContainer {
+    width: 950px;
+    background: url('../images/cream_bg.jpg');
+    margin: 25px auto;
+    text-align: left;
+}
+
+#theContainer h1 {
+    color: #297137;
+    font-size: 34px;
+    text-align: left;
+    margin: 0 0 0 45px;
+    padding: 20px 0 0 0;
+}
+
+#theContainer div#theMidRow {
+    clear: both;
+    width: 100%;
+    margin: 15px 0 0 0;
+}
+
+#theContainer div#theMidRow div#theLeft {
+    float: left;
+    display: inline;
+    width: 285px;
+}
+
+#theContainer div#theMidRow div#theLeft div#theLogo {
+    width: 285px;
+    height: 142px;
+}
+
+#theContainer div#theMidRow div#theLeft div#theLogo img {
+    margin: 0 0 0 45px;
+}
+
+#theContainer div#theMidRow div#theLeft div#shovel_ready_content {
+    width: 285px;
+    height: 210px;
+    background: #d7e58d;
+}
+
+#theContainer div#theMidRow div#theLeft div#shovel_ready_content p {
+    margin: 0 20px 0 45px;
+    padding: 15px 0 0;
+    font-size: 10px;
+    color: #033f7a;
+}
+
+#theContainer div#theMidRow div#theLeft div#under_construction {
+    margin: 160px 0 0 0;
+    height: 40px;
+}
+
+#theContainer div#theMidRow div#theLeft div#under_construction p {
+    margin: 0 0 0 45px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #033f7a;
+}
+
+#theContainer div#theMidRow div#shovel_ready_information { 
+    float: left;
+    display: inline;
+    width: 176px;
+}
+
+#theContainer div#theMidRow div#shovel_ready_information div#shovel_ready_image {
+    width: 176px;
+    height: 262px;
+    margin: 90px 0 0 0;
+}
+
+#theContainer div#theMidRow div#shovel_ready_information div#shovel_ready_links {
+    width: 176px;
+    padding: 20px 0 0 0;
+    margin: 0;
+}
+
+#theContainer div#theMidRow div#shovel_ready_information div#shovel_ready_links h1 {
+    margin: 0 0 5px 0;
+    color: #0f753b;
+    font-size: 13px;
+    padding: 0;
+}
+
+#theContainer div#theMidRow div#shovel_ready_information div#shovel_ready_links h2 {
+    color: #033f7a;
+    margin: 10px 0 0 0;
+    font-size: 12px;
+    font-weight: normal;
+}
+
+#theContainer div#theMidRow div#settlement_community_info {
+    float: left;
+    display: inline;
+    margin: 0;
+    width: 231px;
+}
+
+#theContainer div#theMidRow div#settlement_community_info h1 { 
+     color: #033f7a;
+     text-align: left;
+     line-height: 70px;
+     font-size: 12px;
+     margin: 0 0 0 50px;
+}
+
+#theContainer div#theMidRow div#settlement_community_info div#settlement_community_image {
+    width: 231px;
+    text-align: left;
+}
+
+#theContainer div#theMidRow div#settlement_community_info div#settlement_community_image h1 {
+    color: #0f753b;
+    font-size: 13px;
+    line-height: 18px;
+    margin: 0 0 20px 20px;
+    padding: 30px 0 0 0;
+}
+
+#theContainer div#theMidRow div#settlement_community_info div#settlement_community_image h2 {
+    color: #033f7a;
+    margin: 10px 0 0 30px;
+    font-size: 13px;
+}
+
+#theContainer div#theMidRow div#settlement_community_info 
+div#settlement_community_image div#settlement_text {
+    height: 90px;
+    width: 231px;
+    border-left: 30px solid #f39321;    
+}
+
+#theContainer div#theMidRow div#settlement_community_info 
+div#settlement_community_image div#settlement_img {
+    width: 231px;
+    height: 289px;
+    border-left: 30px solid #f39321;    
+}
+
+#theContainer div#theMidRow div#settlement_community_content {
+    float: left;
+    display: inline;
+    background: #f8dbbf;
+    width: 228px;
+    height: 289px;
+    margin: 180px 0 0 30px;
+}
+
+#theContainer div#theMidRow div#settlement_community_content p {
+    margin: 0 15px 0 15px;
+    padding: 15px 0;
+    font-size: 10px;
+    color: #033f7a;
+}
+
+
+#blue_row {
+    clear: both;
+    margin: 30px 0 0 0;
+    width: 100%;
+    background: #033f7a;
+    height: 35px;
+}
+
+#blue_row h1 {
+    color: #ffffff;
+    line-height: 35px;
+    margin: 0 0 0 45px;
+    font-size: 14px;
+    padding: 0;
+}
+
+#footer {
+    clear: both;
+    margin: 15px 0 20px 0;
+}
+
+#footer p {
+    margin: 0 0 0 45px;
+    font-size: 11px;
+    color: #033f7a;
+}
+
+h2 a {
+    color: #033f7a;
+    text-decoration: underline;
+}
+
+h2 a:hover {
+    text-decoration: none;
+}
+
+
+.clearfix:after,
+#theContainer:after,
+#theLeft:after,
+#theMidRow:after,
+#theGray:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */

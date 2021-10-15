@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id eNEqBGr6z2DMtj0ASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Sun, 20 Jun 2021 19:33:14 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Sun, 20 Jun 2021 19:33:14 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1lv9kP-00H1JH-W8
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Sun, 20 Jun 2021 19:33:14 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1624242793www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1624242793-eximdsn-1453670366
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lv9kP-00H1JH-W8@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Sun, 20 Jun 2021 19:33:13 -0700
+
+--1624242793-eximdsn-1453670366
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 v9kPlyso0R2Xd :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=SsxVVNC0 c=1 sm=1 tr=0 ts=60cffa69 p=c3uFTfZnAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=r6YtysWOX24A:10 a=9v-CwfaYo4UA:10 a=CjxXgO3LAAAA:8 a=Xy_dxyQgPMRMLU4vSD4A:9 a=wPNLvfGTeEIA:10 a=div3-jF8AvIA:10 a=Xqd4dde-4IoA:10 a=IawXvI9lP1MA:10 a=2x2MyJngb7APMFiTcL2H:22 a=p-dnK0njbqwfn1k4-x12:22 a=qxG4R2aHmpcNjmqRPJKJ:22 ::
+    100.00
+
+--1624242793-eximdsn-1453670366
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 v9kPlyso0R2Xd :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=SsxVVNC0 c=1 sm=1 tr=0 ts=60cffa69 p=c3uFTfZnAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=r6YtysWOX24A:10 a=9v-CwfaYo4UA:10 a=CjxXgO3LAAAA:8 a=Xy_dxyQgPMRMLU4vSD4A:9 a=wPNLvfGTeEIA:10 a=div3-jF8AvIA:10 a=Xqd4dde-4IoA:10 a=IawXvI9lP1MA:10 a=2x2MyJngb7APMFiTcL2H:22 a=p-dnK0njbqwfn1k4-x12:22 a=qxG4R2aHmpcNjmqRPJKJ:22 :: 100.00
+
+--1624242793-eximdsn-1453670366
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1lv9kP-00H1J1-QT
+	for kmcaulay@shfinc.org; Sun, 20 Jun 2021 19:33:13 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 156.146.36.72, 172.70.110.226
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 172.70.110.226
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1624242793www.settlementhousingfund.org>
+X-Sender-IP: 172.70.110.226
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="2acf1c955530bcc6229bb196faf67577"
+Date: Sun, 20 Jun 2021 19:33:13 -0700
+
+--2acf1c955530bcc6229bb196faf67577
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Leola Jeramy
+Business Name: Katherina
+Email: NydiaDefrance@yahoo.com
+Phone: 
+Address: 
+
+,  
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Here is a list of 18 free traffic sources that you should be using: http://bit.ly/18freetrafficsources
+
+---------------------------------------------------------------
+
+end of message
+
+--2acf1c955530bcc6229bb196faf67577--
+
+
+
+--1624242793-eximdsn-1453670366--

@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id 8BgAGktzKGEshx8ASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Thu, 26 Aug 2021 22:08:27 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Thu, 26 Aug 2021 22:08:27 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1mJU6N-008iDs-BE
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Thu, 26 Aug 2021 22:08:27 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1630040906www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1630040907-eximdsn-504685582
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mJU6N-008iDs-BE@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Thu, 26 Aug 2021 22:08:27 -0700
+
+--1630040907-eximdsn-504685582
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 JU6MmIHarNpW3 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=IsXbzJzg c=1 sm=1 tr=0 ts=6128734b p=1yr4Z8OXAAAA:8 p=TQcMV6wAAAAA:8 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=MhDmnRu9jo8A:10 a=g5oWdLlQY_AA:10 a=eInrJSbH1COGWfrZ5hMA:9 a=wPNLvfGTeEIA:10 a=fNTqxOqYINEA:10 a=hxE98Xm9z4gxzxbFvnin:22 a=0HuW301FXh6_I4pkDcC-:22 ::
+    100.00
+
+--1630040907-eximdsn-504685582
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 JU6MmIHarNpW3 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=IsXbzJzg c=1 sm=1 tr=0 ts=6128734b p=1yr4Z8OXAAAA:8 p=TQcMV6wAAAAA:8 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=MhDmnRu9jo8A:10 a=g5oWdLlQY_AA:10 a=eInrJSbH1COGWfrZ5hMA:9 a=wPNLvfGTeEIA:10 a=fNTqxOqYINEA:10 a=hxE98Xm9z4gxzxbFvnin:22 a=0HuW301FXh6_I4pkDcC-:22 :: 100.00
+
+--1630040907-eximdsn-504685582
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1mJU6M-008iCb-O6
+	for kmcaulay@shfinc.org; Thu, 26 Aug 2021 22:08:26 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 184.75.211.142, 162.158.74.101
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 162.158.74.101
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1630040906www.settlementhousingfund.org>
+X-Sender-IP: 162.158.74.101
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="83678872884481dbb139675bd246d107"
+Date: Thu, 26 Aug 2021 22:08:26 -0700
+
+--83678872884481dbb139675bd246d107
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Tracee Shepard
+Business Name: Tracee Shepard
+Email: mnero1995g@protectrep.com
+Phone: 67 120 36 86
+Address: 
+Ul. Obozowa 36
+Warszawa, NA 01-418
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+With over 3.5 billion searches per day, Google is a hotspot for consumers. And with its location-specific and rich results, it is ingrained in our daily lives as the go-to tool for, well, anything — getting the weather, buying tickets, finding products, vetting services, answering quick questions, seeing if a local store is open, and the list goes on. Here are some strategies your local business can implement to get on this highly trafficked search engine for free. https://1mdr.short.gy/l4bIIa
+
+---------------------------------------------------------------
+
+end of message
+
+--83678872884481dbb139675bd246d107--
+
+
+
+--1630040907-eximdsn-504685582--

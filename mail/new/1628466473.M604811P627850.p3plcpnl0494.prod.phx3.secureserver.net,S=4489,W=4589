@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id mBywIiltEGGKlAkASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Sun, 08 Aug 2021 16:47:53 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Sun, 08 Aug 2021 16:47:53 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1mCsWH-002gga-GR
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Sun, 08 Aug 2021 16:47:53 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1628466473www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1628466473-eximdsn-1640691172
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mCsWH-002gga-GR@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Sun, 08 Aug 2021 16:47:53 -0700
+
+--1628466473-eximdsn-1640691172
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 CsWHm3JgTNpW3 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=IsXbzJzg c=1 sm=1 tr=0 ts=61106d29 p=DYgUULYzAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=MhDmnRu9jo8A:10 a=5IcpfS1JtnUA:10 a=pGLkceISAAAA:8 a=nFvONXcAmZUsNZ3QHs0A:9 a=wPNLvfGTeEIA:10 a=uuf9_RL0Lh4A:10 a=YlPSKLaDYcYA:10 a=uwJauDpDLYcA:10 a=EqTJyDrcTivSaq__6R0q:22 ::
+    100.00
+
+--1628466473-eximdsn-1640691172
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 CsWHm3JgTNpW3 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=IsXbzJzg c=1 sm=1 tr=0 ts=61106d29 p=DYgUULYzAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=MhDmnRu9jo8A:10 a=5IcpfS1JtnUA:10 a=pGLkceISAAAA:8 a=nFvONXcAmZUsNZ3QHs0A:9 a=wPNLvfGTeEIA:10 a=uuf9_RL0Lh4A:10 a=YlPSKLaDYcYA:10 a=uwJauDpDLYcA:10 a=EqTJyDrcTivSaq__6R0q:22 :: 100.00
+
+--1628466473-eximdsn-1640691172
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1mCsWH-002gdZ-Ac
+	for kmcaulay@shfinc.org; Sun, 08 Aug 2021 16:47:53 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 212.102.33.73, 172.70.114.82
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 172.70.114.82
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1628466473www.settlementhousingfund.org>
+X-Sender-IP: 172.70.114.82
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="b5a1c90fae7e42a98fe5ecb39b9dcdbf"
+Date: Sun, 08 Aug 2021 16:47:53 -0700
+
+--b5a1c90fae7e42a98fe5ecb39b9dcdbf
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Wilda Buccieri Jani Hansberger
+Business Name: Charlotte Carline
+Email: DanaSyzdek@gmail.com
+Phone: 
+Address: 
+
+,  
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Unique And Creative Ways To Advertise For Free : https://bit.ly/free-stuff-blog
+
+---------------------------------------------------------------
+
+end of message
+
+--b5a1c90fae7e42a98fe5ecb39b9dcdbf--
+
+
+
+--1628466473-eximdsn-1640691172--

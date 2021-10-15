@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id 0NspFhuIM2GcrgAASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Sat, 04 Sep 2021 07:52:11 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Sat, 04 Sep 2021 07:52:11 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1mMX1f-000COA-9W
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Sat, 04 Sep 2021 07:52:11 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1630767130www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1630767131-eximdsn-1877773337
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mMX1f-000COA-9W@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Sat, 04 Sep 2021 07:52:11 -0700
+
+--1630767131-eximdsn-1877773337
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 MX1emr59DNpW3 :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=IsXbzJzg c=1 sm=1 tr=0 ts=6133881b p=IZOglwFbzhMA:10 p=59vtYGz-AAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=7QKq2e-ADPsA:10 a=AAvYLDLOAAAA:8 a=p42udvFcC6VcmXjRJh8A:9 a=L5x/Yj6pfWrNNQy1QJ1RC1UwRxI=:19 a=wPNLvfGTeEIA:10 a=dyXYE2ajB-0A:10 a=dihei-c0tREA:10 a=iP0jkFxISS4A:10 a=qOfbAqZmWX4A:10 ::
+    100.00
+
+--1630767131-eximdsn-1877773337
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 MX1emr59DNpW3 :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=IsXbzJzg c=1 sm=1 tr=0 ts=6133881b p=IZOglwFbzhMA:10 p=59vtYGz-AAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=7QKq2e-ADPsA:10 a=AAvYLDLOAAAA:8 a=p42udvFcC6VcmXjRJh8A:9 a=L5x/Yj6pfWrNNQy1QJ1RC1UwRxI=:19 a=wPNLvfGTeEIA:10 a=dyXYE2ajB-0A:10 a=dihei-c0tREA:10 a=iP0jkFxISS4A:10 a=qOfbAqZmWX4A:10 :: 100.00
+
+--1630767131-eximdsn-1877773337
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1mMX1e-000CNd-LB
+	for kmcaulay@shfinc.org; Sat, 04 Sep 2021 07:52:10 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 184.75.211.140, 173.245.54.231
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 173.245.54.231
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1630767130www.settlementhousingfund.org>
+X-Sender-IP: 173.245.54.231
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="a306d0672a8df510e1407ab28f393d48"
+Date: Sat, 04 Sep 2021 07:52:10 -0700
+
+--a306d0672a8df510e1407ab28f393d48
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Samara Witherspoon
+Business Name: Samara Witherspoon
+Email: samara.witherspoon@msn.com
+Phone: 06-49154235
+Address: 
+Zeesweg 22
+Sevenum, LI 5975 Pp
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Unique And Creative Ways To Advertise For Free :https://cutt.ly/FWkMCp5
+
+---------------------------------------------------------------
+
+end of message
+
+--a306d0672a8df510e1407ab28f393d48--
+
+
+
+--1630767131-eximdsn-1877773337--

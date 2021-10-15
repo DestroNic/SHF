@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id 0P+bAprGr2AHZSoASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Thu, 27 May 2021 09:19:38 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Thu, 27 May 2021 09:19:38 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1lmIjR-00Bk6W-VM
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Thu, 27 May 2021 09:19:38 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1622132377www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1622132377-eximdsn-217112896
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lmIjR-00Bk6W-VM@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Thu, 27 May 2021 09:19:37 -0700
+
+--1622132377-eximdsn-217112896
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 mIjRloXajgwVB :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=OeZdsjfY c=1 sm=1 tr=0 ts=60afc699 p=mXylIzRCAAAA:20 p=Y-toLlySBOwA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=5FLXtPjwQuUA:10 a=wGRusFs_0cMA:10 a=1VQmJSnTmdZqw-T9IuwA:9 a=wPNLvfGTeEIA:10 a=423V9B_Xu1gA:10 a=IawXvI9lP1MA:10 a=aL9B-ERxvqAA:10 a=ZB6IVp9md7UA:10 a=94AGJy5irUqrrfiBg_Cj:22 a=g5p63EKjbY_XdXfPuHko:22 a=p-dnK0njbqwfn1k4-x12:22 a=v_cQPovZ7B8H8PG8zmBF:22 ::
+    100.00
+
+--1622132377-eximdsn-217112896
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 mIjRloXajgwVB :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=OeZdsjfY c=1 sm=1 tr=0 ts=60afc699 p=mXylIzRCAAAA:20 p=Y-toLlySBOwA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=5FLXtPjwQuUA:10 a=wGRusFs_0cMA:10 a=1VQmJSnTmdZqw-T9IuwA:9 a=wPNLvfGTeEIA:10 a=423V9B_Xu1gA:10 a=IawXvI9lP1MA:10 a=aL9B-ERxvqAA:10 a=ZB6IVp9md7UA:10 a=94AGJy5irUqrrfiBg_Cj:22 a=g5p63EKjbY_XdXfPuHko:22 a=p-dnK0njbqwfn1k4-x12:22 a=v_cQPovZ7B8H8PG8zmBF:22 :: 100.00
+
+--1622132377-eximdsn-217112896
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1lmIjR-00Bk6D-Pe
+	for kmcaulay@shfinc.org; Thu, 27 May 2021 09:19:37 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 193.150.170.226, 162.158.183.229
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 162.158.183.229
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1622132377www.settlementhousingfund.org>
+X-Sender-IP: 162.158.183.229
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="e8ca10fc8b7d6d1efe08cd8b6601a933"
+Date: Thu, 27 May 2021 09:19:37 -0700
+
+--e8ca10fc8b7d6d1efe08cd8b6601a933
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: CharlesTobDR CharlesTobDR
+Business Name: CharlesTob
+Email: 0uince9@goposts.site
+Phone: 88853153726
+Address: 
+Juuka
+Juuka, Finland 154344
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Hi, look what a cool site I found, there you can win from $ 50 to $ 3000 , I managed to win $ 540, good luck to you <a href=https://bit.ly/34jKEhC>https://bit.ly/34jKEhC</a>
+
+---------------------------------------------------------------
+
+end of message
+
+--e8ca10fc8b7d6d1efe08cd8b6601a933--
+
+
+
+--1622132377-eximdsn-217112896--

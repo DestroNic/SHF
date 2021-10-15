@@ -1,0 +1,736 @@
+html, body { 
+    margin: 0;
+    padding: 0;
+    font-family: "Arial",Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    text-align: center;
+    /* background: #0081c3; */
+    background: #fff;
+    color: #333333;
+}
+
+img { border: 0 none; }
+a{
+    text-decoration: none;
+    color: #555555;
+    outline: none;
+}
+
+a:hover { color: #0092b2; text-decoration: underline; }
+
+p.errors {
+    margin: 5px;
+    padding: 5px;
+    color: #992d2d;
+    border: 1px solid #992d2d;
+    background: #c86a6a;
+}
+
+#theBody {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#theHeader {
+    width: 825px;
+    padding: 0 10px;
+    height: 149px;
+    margin: 0 auto;
+    background: #ffffff url('../images/shf_top.jpg') 420px -4px no-repeat;
+}
+
+#theHeader a.top_logo {
+    float: left;
+    display: inline;
+    width: 77px;
+    height: 129px;
+    margin: 20px 0 0 10px;
+}
+
+#theHeader div#theTopNavigation {
+    float: right;
+    display: inline;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+}
+
+#theHeader div#theTopNavigation a {
+    display: inline-block;
+    margin: 5px 0 0;
+    color: #356488;
+    background: #ffffff;
+    padding: 0 15px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+#theHeader div#theTopNavigation a.donate {
+    background: url('../images/orange_ball.jpg') 50% 50% no-repeat;
+}
+
+#theHeader div#theTopNavigation a.covid19 {
+    background: url('../images/orange_ball.jpg') 50% 50% no-repeat;
+}
+
+#theHeader div#theTopNavigation a:hover {
+    color: #356488;
+}
+
+#theHeader div#theTopNavigation a.donate:hover, #theHeader div#theTopNavigation a.covid19:hover {
+    color: #ffffff
+}
+
+#the_line {
+    width: 825px;
+    padding: 0 10px;
+    height: 0;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 7px solid #f28e1c;
+    margin: 0 auto;
+}
+
+#theNavigation {
+    width: 825px;
+    height: 30px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 0 10px;
+}
+
+
+#theContent {
+    padding: 0 10px;
+    width: 825px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+#theFooter {
+    background: #f28e1c;
+    width: 825px;
+    padding: 0 10px;
+    line-height: 25px;
+    height: 25px;
+    color: #ffffff;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    clear: both;
+    margin: 0 auto;
+}
+
+#theQuote {
+    clear: both;
+    padding: 1px 0 1px 0px;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: #336185;
+    margin: 0px 0px 0px 0px;
+}
+#theQuote p {
+    margin: 5px 0px 20px 0px;
+}
+
+#theLeft {
+    float: left;
+    display: inline;
+    width: 285px;
+    padding: 0;
+}
+
+#theLeft div.side_images {
+    margin: 10px auto;
+    width: 200px;
+    text-align: center;
+}
+
+#theLeftImage { }
+
+#theLeftMenu {
+    width: 285px;
+    margin: 15px 0 0;
+    position: relative;
+}
+
+#theLeftMenu h2 {
+    position: absolute;
+    left: -45px;
+    width: 325px;
+    color: #ffffff;
+    line-height: 32px;
+    height: 35px;
+    background: url('../images/side_heading.png') 0 0 no-repeat;
+    margin: 0;
+    text-align: left;
+    padding: 0 10px 0 60px;
+}
+
+#theLeftMenu div#side_nav {
+    padding: 45px 0 0;
+}
+
+#theLeftMenu a {
+    display: block;
+    padding: 7px 10px 7px 20px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: left;
+}
+
+.pdflink {
+    display: block;
+    padding: 5px 10px 5px 0px;
+    color: #f19121;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: left;
+}
+
+
+#theLeftMenu a:hover,
+#theLeftMenu a.active {
+    border-left: 5px solid #f19121;
+    color: #f19121;
+    padding: 7px 10px 7px 15px;
+}
+
+#theRight {
+    float: left;
+    display: inline;
+    width: 540px;
+}
+
+#theRight div#theWords {
+    margin: 0 15px;
+    text-align: left;
+}
+
+#theWords a {
+    text-decoration: underline;
+}
+
+#theWords a:hover {
+    text-decoration: none;
+}
+
+
+#theHome {
+    margin: 0 auto;
+    width: 805px;
+}
+
+#theRotator {
+    float: left;
+    display: inline;
+    width: 540px;
+    height: 300px;
+    margin: 0 0 15px;
+    position: relative;
+}
+#theImage {
+    float: left;
+    display: inline;
+    width: 540px;
+    height: 300px;
+    margin: 0 0 15px;
+    position: relative;
+}
+
+#theRotator a, #theRotator img {
+    text-align: left !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#theRotator div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 530px;
+    height: 240px;
+    display: none;
+}
+
+#left_top_cl {
+    padding-top: 1px;
+}
+
+#theText {
+    background: #2b72b5;
+    width: 265px;
+    height: 653px;
+    float: left;
+    display: inline;
+    margin: 0 0 15px;
+}
+
+#theText h1 {
+    font-family: 'arial narrow';
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+#theText.social h1 { font-family: 'Arial Narrow', arial, sans-serif; font-size: 18px; padding: 15px; text-shadow: 0 1px 2px #333; }
+
+#theText.social div#top_social { text-align: center; padding: 10px 5px;  border-top: 1px solid #fff; border-bottom: 1px solid #fff;  margin: 40px 0 24px; background: #5997D0; }
+#theText.social div#top_social a { margin: 0 4px; }
+
+#theGreen {
+    width: 100%;
+    background: #84cc4c;
+    font-family: 'arial narrow';
+    color: #ffffff;
+    height: 60px;
+    line-height: 35px;
+    clear: both;
+    margin: 5px auto;
+}
+#greenwrap {
+    margin: 0 auto;
+    padding: 12px 0;
+}
+#theGreen h1 {
+    width: 400px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    display: inline;
+    padding: 0 10px;
+    margin: 0;
+    text-align: center;
+}
+
+#theOrange {
+    width: 100%;
+    background: #e15026;
+    font-family: 'arial';
+    color: #ffffff;
+    clear: both;
+    margin: 15px auto;
+}
+#orangewrap {
+    margin: 0 auto;
+    padding: 15px;
+}
+#theWhite {
+    width: 100%;
+    background: #ffffff;
+    font-family: 'arial';
+    color: #333333;
+    clear: both;
+    margin: 15px auto;
+}
+#whitewrap {
+    margin: 0 auto;
+}
+#bluebottom {
+    height: 6px;
+    background: #272F6A;
+    padding: 1px;
+}
+#theOrange h3 {
+    line-height: 28px;
+    font-size: 1.30em;
+    display: block;
+    padding: 10px;
+    margin: 0;
+    text-align: center;
+}
+#theOrange a {
+    line-height: 28px;
+    font-family: 'arial';
+    color: #ffffff;
+    text-decoration: underline;
+}
+#theGreen a.yellow,
+#theGreen a.orange {
+    float: left;
+    display: inline;
+    height: 35px;
+    margin: 0 1px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 35px;
+    width: 185px;
+    text-align: center;
+    text-decoration: none;
+    background: url('../images/yellow_button.jpg') 0 0 no-repeat;
+    font-weight: bold;
+}
+
+a.feed {
+    float: left;
+    border-left: 5px solid #f19121;
+    padding: 7px 10px 7px 15px;
+    margin: 5px 0px 5px 0px;
+    font-size: 12px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+}
+#theGreen a.orange {
+    background: url('../images/orange_button.jpg') 0 0 no-repeat;
+    color: #ffffff;
+}
+
+#theGreen a.orange:hover  {
+    color: #0092b2;
+}
+
+
+
+#theHomeBottom div.bottom_box {
+    float: left;
+    display: inline;
+    height: 250px;
+    width: 165px;
+    margin: 10px 5px 0 0;
+}
+
+div.bottom_box h2 {
+    background: #f28e1c;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    padding: 8px 10px;
+}
+
+div.bottom_box p {
+    font-size: 10px;
+    color: #333333;
+    text-align: left;
+    margin: 5px 0;
+}
+
+#theHomeBottom div.medium {
+    width: 205px;
+}
+
+#theHomeBottom div.wide {
+    width: 265px;
+    height: 100%;
+    margin: 10px 0 0 0;
+}
+
+#theHomeBottom div.wider {
+    width: 335px;
+    /* margin: 10px 0 0 0; */
+}
+
+#theHomeBottom div.even_wider {
+    width: 530px;
+    height: 100%;
+    margin: 10px 10px 10px 0; 
+}
+
+a.bold {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+a.wide {
+    height: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 13px;
+    display: block;
+    margin: 5px 0;
+    text-align: left;
+    padding: 0 10px;
+}
+
+a.wide:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#theBottom {
+    width: 825px;
+    padding: 20px 10px 20px;
+    margin: 10px auto 0;
+    background: #ffffff;
+    border-top: 1px solid #f4f4f3
+}
+
+#theBottom div.bottom_box {
+    float: left;
+    display: inline;
+    width: 227px;
+    margin: 0 10px;
+    height: 180px;
+}
+
+
+#theBottom div#illustrated {
+    width: 275px;
+    border-left: 1px solid #84cc4c;
+    border-right: 1px solid #84cc4c;
+    background: url('../images/illustrated_building.jpg') 50% 50% no-repeat;
+    padding: 0 10px;
+}
+
+.green-bg { 
+    background: #84cc4c;
+}
+
+.blue-bg {
+    background: #2b72b5;
+}
+
+.rose-bg {
+    background: #ce5c4d;
+}
+
+.orange-bg {
+    background: #f28e1c;
+}
+
+
+ div#contact_form_left {
+    float: left;
+    display: inline;
+    width: 300px;
+    margin: 0 25px 0 75px;
+}
+
+div#contact_right {
+    float: left;
+    display: inline;
+    width: 300px;
+    text-align: right;
+    padding: 0 0 0 25px;
+}
+
+.div_left_f {
+    float: left;
+    padding: 0;
+    margin: 0 2px 0 0;
+}
+.div_right_f {
+    float: left;
+    
+}
+
+div#contact_right h2 {
+    font-size: 14px;
+    border-bottom: 1px solid #2a4995;
+}
+
+
+#theContent div.fform {
+    clear: both;
+    margin: 10px;
+    text-align: left;
+}
+
+#theContent div.fform label,
+div.fform label {
+    width: 100px;
+    text-align: right;
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 2px 0 0 0;
+}
+
+div.fform b {
+    color: #ee0000;
+}
+
+#theContent div.fform {
+    clear: both;
+    margin: 10px;
+    text-align: left;
+}
+
+#theContent div.fform label {
+    width: 100px;
+    text-align: right;
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 2px 0 0 0;
+}
+
+#theContent div.fform div.txtarea {
+    float: left;
+    display: inline;
+    width: 149px;
+}
+
+#theContent div.fform label.no_float {
+    float: none;
+    clear: both;
+}
+
+
+#theGrayness {   
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: #dddddd;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 900;
+}
+
+#theDay { 
+    display: none;
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('../images/big_day.png') 0 0 no-repeat;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+#theDay div#theDay_inside {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#theDay div#theDay_inside h2.cal_head {
+    height: 26px;
+    line-height: 26px;
+    margin: 0;
+    font-size: 18px;
+}
+
+#theDay div#theDay_inside h3 {
+    font-size: 16px;
+}
+
+#theDay div#theDay_inside p {
+    margin: 5px 10px;
+}
+
+#theDay div#theDay_inside div.cal_detail {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+}    
+
+#theBottom:after,
+#theHomeBottom:after,
+#theHome:after,
+#theContent:after, 
+.clearfix:after,
+#theHeader:after,
+#theBody div#theBoxes:after,
+#theFooter:after, #theBody:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */
+
+.sidebar_line {
+    border: 0;
+    height: 0;
+    width:90%;
+    border-bottom: 1px dashed #2f3c73;
+}
+.no_logo {
+    font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif;
+    color: #444;
+    text-transform: uppercase;
+    line-height:24px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 26px;
+}
+.no_logosm {
+    font-family: Gill Sans, Gill Sans MT, Myriad Pro, DejaVu Sans Condensed, Helvetica, Arial, sans-serif;
+    color: #444;
+    text-transform: uppercase;
+    line-height:20px;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 22px;
+}
+
+#theEvent {
+    float: left;
+    display: inline;
+    width: 540px;
+    height: 300px;
+    margin: 0 0 10px;
+    position: relative;
+}
+
+#theEvent div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 530px;
+    height: 240px;
+}
+
+/*lightbox image css*/
+/* padding-bottom and top for image */
+.mfp-no-margins img.mfp-img {
+    padding: 0;
+}
+/* position of shadow behind the image */
+.mfp-no-margins .mfp-figure:after {
+    top: 0;
+    bottom: 0;
+}
+/* padding for main container */
+.mfp-no-margins .mfp-container {
+    padding: 0;
+}
+
+
+/* 
+
+for zoom animation 
+uncomment this part if you haven't added this code anywhere else
+
+*/
+/*
+
+.mfp-with-zoom .mfp-container,
+.mfp-with-zoom.mfp-bg {
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    -webkit-transition: all 0.3s ease-out; 
+    -moz-transition: all 0.3s ease-out; 
+    -o-transition: all 0.3s ease-out; 
+    transition: all 0.3s ease-out;
+}
+
+.mfp-with-zoom.mfp-ready .mfp-container {
+        opacity: 1;
+}
+.mfp-with-zoom.mfp-ready.mfp-bg {
+        opacity: 0.8;
+}
+
+.mfp-with-zoom.mfp-removing .mfp-container, 
+.mfp-with-zoom.mfp-removing.mfp-bg {
+    opacity: 0;
+}
+*/

@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id +ItQK1J9DGHf1DgASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Thu, 05 Aug 2021 17:07:46 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Thu, 05 Aug 2021 17:07:46 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1mBnOs-00Gwvb-Kg
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Thu, 05 Aug 2021 17:07:46 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1628208466www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1628208466-eximdsn-1066272019
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mBnOs-00Gwvb-Kg@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Thu, 05 Aug 2021 17:07:46 -0700
+
+--1628208466-eximdsn-1066272019
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 BnOsm83wye8EJ :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=XfxMcK15 c=1 sm=1 tr=0 ts=610c7d52 p=vRDWZAzDAAAA:8 p=aOBFrhLXWogA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=MhDmnRu9jo8A:10 a=q8dEkiU-Tn8A:10 a=mem--OOHAAAA:8 a=CgTNoSPvIkp0RDjtqDcA:9 a=wPNLvfGTeEIA:10 a=6838p7SVBPYA:10 a=OibQudau4jwA:10 a=-FEs8UIgK8oA:10 a=VxAk22fqlfwA:10 a=NWVoK91CQyQA:10 a=QSv8LDXNDX-_6yN9_DLc:22 a=VFfb8kU3Ka-UNUxDfZhV:22 ::
+    100.00
+
+--1628208466-eximdsn-1066272019
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 BnOsm83wye8EJ :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=XfxMcK15 c=1 sm=1 tr=0 ts=610c7d52 p=vRDWZAzDAAAA:8 p=aOBFrhLXWogA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=MhDmnRu9jo8A:10 a=q8dEkiU-Tn8A:10 a=mem--OOHAAAA:8 a=CgTNoSPvIkp0RDjtqDcA:9 a=wPNLvfGTeEIA:10 a=6838p7SVBPYA:10 a=OibQudau4jwA:10 a=-FEs8UIgK8oA:10 a=VxAk22fqlfwA:10 a=NWVoK91CQyQA:10 a=QSv8LDXNDX-_6yN9_DLc:22 a=VFfb8kU3Ka-UNUxDfZhV:22 :: 100.00
+
+--1628208466-eximdsn-1066272019
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1mBnOs-00Gwuy-F6
+	for kmcaulay@shfinc.org; Thu, 05 Aug 2021 17:07:46 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 178.159.37.182, 172.68.238.146
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 172.68.238.146
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1628208466www.settlementhousingfund.org>
+X-Sender-IP: 172.68.238.146
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="36ce34ce316e2bc62c968c9dce96f016"
+Date: Thu, 05 Aug 2021 17:07:46 -0700
+
+--36ce34ce316e2bc62c968c9dce96f016
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Iwan Iwan
+Business Name: Iwan
+Email: kuban.video@bk.ru
+Phone: 81816422676
+Address: 
+Piran
+Piran, Slovenia 122135
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+<a href=https://kuban.video/>краснодарский край видео</a>
+
+---------------------------------------------------------------
+
+end of message
+
+--36ce34ce316e2bc62c968c9dce96f016--
+
+
+
+--1628208466-eximdsn-1066272019--

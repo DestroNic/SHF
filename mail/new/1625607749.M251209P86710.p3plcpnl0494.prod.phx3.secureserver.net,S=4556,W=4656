@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id oPqICUXO5GC2UgEASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Tue, 06 Jul 2021 14:42:29 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Tue, 06 Jul 2021 14:42:29 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1m0spn-000cBC-T8
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Tue, 06 Jul 2021 14:42:27 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1625607747www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1625607747-eximdsn-779939933
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1m0spn-000cBC-T8@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Tue, 06 Jul 2021 14:42:27 -0700
+
+--1625607747-eximdsn-779939933
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 0spnmZqCgVjYq :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=60e4ce43 p=EUraazBMAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=e_q4qTt1xDgA:10 a=po7Hz6-pa5YA:10 a=pGLkceISAAAA:8 a=0IEA0emd5D_omgdSnnsA:9 a=wPNLvfGTeEIA:10 a=ObiuDlwrHsQA:10 a=t9N08LDEyH0A:10 a=u5znDtcy7yEA:10 a=IawXvI9lP1MA:10 a=S2JSwSSEF0sA:10 a=jrFlHT9i4vt0MRqn67do:22 ::
+    100.00
+
+--1625607747-eximdsn-779939933
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 0spnmZqCgVjYq :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=60e4ce43 p=EUraazBMAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=e_q4qTt1xDgA:10 a=po7Hz6-pa5YA:10 a=pGLkceISAAAA:8 a=0IEA0emd5D_omgdSnnsA:9 a=wPNLvfGTeEIA:10 a=ObiuDlwrHsQA:10 a=t9N08LDEyH0A:10 a=u5znDtcy7yEA:10 a=IawXvI9lP1MA:10 a=S2JSwSSEF0sA:10 a=jrFlHT9i4vt0MRqn67do:22 :: 100.00
+
+--1625607747-eximdsn-779939933
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1m0spn-000cAi-N8
+	for kmcaulay@shfinc.org; Tue, 06 Jul 2021 14:42:27 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 79.173.90.153, 162.158.183.103
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 162.158.183.103
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1625607747www.settlementhousingfund.org>
+X-Sender-IP: 162.158.183.103
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="90b7ab086c59dc182f380fe80ecb25ba"
+Date: Tue, 06 Jul 2021 14:42:27 -0700
+
+--90b7ab086c59dc182f380fe80ecb25ba
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: FionaDrunkMT DebbieDrunkMT
+Business Name: CarmenDrunk
+Email: r.bahramiw0@gmail.com
+Phone: 87363941444
+Address: 
+New York City
+New York City, USA 131232
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Best of Ali - https://bit.ly/3hx9fpd
+
+---------------------------------------------------------------
+
+end of message
+
+--90b7ab086c59dc182f380fe80ecb25ba--
+
+
+
+--1625607747-eximdsn-779939933--

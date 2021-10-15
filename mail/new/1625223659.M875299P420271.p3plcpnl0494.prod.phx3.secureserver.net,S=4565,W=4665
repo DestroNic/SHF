@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id cMbTE+vx3mCvaQYASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Fri, 02 Jul 2021 04:00:59 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Fri, 02 Jul 2021 04:00:59 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1lzGup-001mGI-63
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Fri, 02 Jul 2021 04:00:59 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1625223658www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1625223659-eximdsn-2122734869
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lzGup-001mGI-63@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Fri, 02 Jul 2021 04:00:59 -0700
+
+--1625223659-eximdsn-2122734869
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 zGupl7b9x1x8f :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=FbzyeLy6 c=1 sm=1 tr=0 ts=60def1eb p=3FS6RRWakOgA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=e_q4qTt1xDgA:10 a=mem--OOHAAAA:8 a=s3tdlYbsAAAA:8 a=ujK2Zl0nljZdi67swloA:9 a=wPNLvfGTeEIA:10 a=ZAjapaRj2l8A:10 a=MsFjlcsKTYcA:10 a=ZGv-rBP4TpwA:10 a=QSv8LDXNDX-_6yN9_DLc:22 a=4x6Ilce7UNBRtkB8LiuJ:22 ::
+    100.00
+
+--1625223659-eximdsn-2122734869
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 zGupl7b9x1x8f :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=FbzyeLy6 c=1 sm=1 tr=0 ts=60def1eb p=3FS6RRWakOgA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=e_q4qTt1xDgA:10 a=mem--OOHAAAA:8 a=s3tdlYbsAAAA:8 a=ujK2Zl0nljZdi67swloA:9 a=wPNLvfGTeEIA:10 a=ZAjapaRj2l8A:10 a=MsFjlcsKTYcA:10 a=ZGv-rBP4TpwA:10 a=QSv8LDXNDX-_6yN9_DLc:22 a=4x6Ilce7UNBRtkB8LiuJ:22 :: 100.00
+
+--1625223659-eximdsn-2122734869
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1lzGuo-001mFx-W9
+	for kmcaulay@shfinc.org; Fri, 02 Jul 2021 04:00:59 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 212.102.57.67, 141.101.98.26
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 141.101.98.26
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1625223658www.settlementhousingfund.org>
+X-Sender-IP: 141.101.98.26
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="a039ddb78b2fa05edcc80584b6d6b221"
+Date: Fri, 02 Jul 2021 04:00:58 -0700
+
+--a039ddb78b2fa05edcc80584b6d6b221
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: MichaelwaitOVI MichaelwaitOVI
+Business Name: MichaelwaitO
+Email: sofiyasamylkin1987911be1+116412@bk.ru
+Phone: 85631452582
+Address: 
+Sumbe
+Sumbe, Angola 113225
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+settlementhousingfund.org, bndjcsfwhejvdkmcndhbsjcsdifefedjgf
+
+---------------------------------------------------------------
+
+end of message
+
+--a039ddb78b2fa05edcc80584b6d6b221--
+
+
+
+--1625223659-eximdsn-2122734869--

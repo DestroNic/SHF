@@ -1,0 +1,517 @@
+html, body { 
+    margin: 0;
+    padding: 0;
+    font-family: "Arial",Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    text-align: center;
+    /* background: #0081c3; */
+    background: #f4f4f3 url('../images/bg.jpg') 0 0 repeat-x;
+    color: #333333;
+}
+
+img { border: 0 none; }
+a{
+    text-decoration: none;
+    color: #555555;
+    outline: none;
+}
+
+a:hover { color: #0092b2; text-decoration: underline; }
+
+p.errors {
+    margin: 5px;
+    padding: 5px;
+    color: #992d2d;
+    border: 1px solid #992d2d;
+    background: #c86a6a;
+}
+
+#theBody {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+#theHeader {
+    width: 825px;
+    padding: 0 10px;
+    height: 149px;
+    margin: 0 auto;
+    background: #ffffff url('../images/shf_top.jpg') 420px -4px no-repeat;
+}
+
+#theHeader a.top_logo {
+    float: left;
+    display: inline;
+    width: 77px;
+    height: 129px;
+    margin: 20px 0 0 10px;
+}
+
+#theHeader div#theTopNavigation {
+    float: right;
+    display: inline;
+    width: 250px;
+    height: 50px;
+    margin: 0;
+}
+
+#theHeader div#theTopNavigation a {
+    display: inline-block;
+    margin: 5px 0 0;
+    color: #356488;
+    background: #ffffff;
+    padding: 0 15px;
+    height: 50px;
+    font-size: 12px;
+    line-height: 50px;
+    text-decoration: none;
+}
+
+#theHeader div#theTopNavigation a.donate {
+    background: url('../images/orange_ball.jpg') 50% 50% no-repeat;
+}
+
+#theHeader div#theTopNavigation a:hover {
+    color: #356488;
+}
+
+#theHeader div#theTopNavigation a.donate:hover {
+    color: #ffffff
+}
+
+#the_line {
+    width: 825px;
+    padding: 0 10px;
+    height: 0;
+    color: #ffffff;
+    text-align: center;
+    border-bottom: 7px solid #f28e1c;
+    margin: 0 auto;
+}
+
+#theNavigation {
+    width: 825px;
+    height: 30px;
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 0 10px;
+}
+
+
+#theContent {
+    padding: 0 10px;
+    width: 825px;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+#theFooter {
+    background: #f28e1c;
+    width: 825px;
+    padding: 0 10px;
+    line-height: 25px;
+    height: 25px;
+    color: #ffffff;
+    text-align: left;
+    font-size: 13px;
+    font-weight: bold;
+    clear: both;
+    margin: 0 auto;
+}
+
+#theQuote {
+    clear: both;
+    padding: 5px 0 5px 15px;
+    text-align: left;
+}
+
+#theLeft {
+    float: left;
+    display: inline;
+    width: 285px;
+    padding: 0;
+}
+
+#theLeft div.side_images {
+    margin: 10px auto;
+    width: 200px;
+    text-align: center;
+}
+
+#theLeftImage { }
+
+#theLeftMenu {
+    width: 285px;
+    margin: 15px 0 0;
+    position: relative;
+}
+
+#theLeftMenu h2 {
+    position: absolute;
+    left: -45px;
+    width: 325px;
+    color: #ffffff;
+    line-height: 32px;
+    height: 35px;
+    background: url('../images/side_heading.png') 0 0 no-repeat;
+    margin: 0;
+    text-align: left;
+    padding: 0 10px 0 60px;
+}
+
+#theLeftMenu div#side_nav {
+    padding: 45px 0 0;
+}
+
+#theLeftMenu a {
+    display: block;
+    padding: 7px 10px 7px 20px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: left;
+}
+
+#theLeftMenu a:hover,
+#theLeftMenu a.active {
+    border-left: 5px solid #f19121;
+    color: #f19121;
+    padding: 7px 10px 7px 15px;
+}
+
+#theRight {
+    float: left;
+    display: inline;
+    width: 540px;
+}
+
+#theRight div#theWords {
+    margin: 0 15px;
+    text-align: left;
+}
+
+#theWords a {
+    text-decoration: underline;
+}
+
+#theWords a:hover {
+    text-decoration: none;
+}
+
+
+#theHome {
+    margin: 0 auto;
+    width: 805px;
+}
+
+#theRotator {
+    float: left;
+    display: inline;
+    width: 540px;
+    height: 240px;
+    margin: 0 0 10px;
+    position: relative;
+}
+
+#theRotator div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 530px;
+    height: 240px;
+    display: none;
+}
+
+
+#theText {
+    background: #2b72b5;
+    width: 265px;
+    height: 240px;
+    float: left;
+    display: inline;
+    margin: 0 0 10px;
+}
+
+#theText h1 {
+    font-family: 'arial narrow';
+    color: #ffffff;
+    font-size: 22px;
+    margin: 0;
+    padding: 30px 15px;
+    text-align: left;
+}
+
+#theGreen {
+    width: 100%;
+    background: #84cc4c;
+    font-family: 'arial narrow';
+    color: #ffffff;
+    height: 35px;
+    line-height: 35px;
+    clear: both;
+    margin: 5px auto;
+}
+
+#theGreen h1 {
+    width: 400px;
+    height: 35px;
+    line-height: 35px;
+    float: left;
+    display: inline;
+    padding: 0 10px;
+    margin: 0;
+    text-align: center;
+}
+
+#theGreen a.yellow,
+#theGreen a.orange {
+    float: left;
+    display: inline;
+    height: 35px;
+    margin: 0 1px;
+    padding: 0;
+    font-size: 18px;
+    line-height: 35px;
+    width: 185px;
+    text-align: center;
+    text-decoration: none;
+    background: url('../images/yellow_button.jpg') 0 0 no-repeat;
+    font-weight: bold;
+}
+
+#theGreen a.orange {
+    background: url('../images/orange_button.jpg') 0 0 no-repeat;
+}
+
+
+
+#theHomeBottom div.bottom_box {
+    float: left;
+    display: inline;
+    height: 275px;
+    width: 165px;
+    margin: 10px 5px 0 0;
+}
+
+div.bottom_box h2 {
+    background: #f28e1c;
+    font-size: 13px;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    padding: 0 3px;
+}
+
+div.bottom_box p {
+    font-size: 10px;
+    color: #333333;
+    text-align: left;
+    margin: 5px 0;
+}
+
+#theHomeBottom div.medium {
+    width: 205px;
+}
+
+#theHomeBottom div.wide {
+    width: 255px;
+    margin: 10px 0 0 0;
+}
+
+a.bold {
+    font-weight: bold;
+    font-size: 11px;
+}
+
+a.wide {
+    height: 30px;
+    line-height: 30px;
+    color: #ffffff;
+    font-size: 14px;
+    display: block;
+    margin: 5px 0;
+    text-align: left;
+    padding: 0 10px;
+}
+
+a.wide:hover {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#theBottom {
+    width: 825px;
+    padding: 0 10px 20px;
+    margin: 0 auto;
+    background: #ffffff;
+}
+
+#theBottom div.bottom_box {
+    float: left;
+    display: inline;
+    width: 227px;
+    margin: 0 10px;
+    height: 200px;
+}
+
+
+#theBottom div#illustrated {
+    width: 275px;
+    border-left: 1px solid #84cc4c;
+    border-right: 1px solid #84cc4c;
+    background: url('../images/illustrated_building.jpg') 50% 50% no-repeat;
+    padding: 0 10px;
+}
+
+.green-bg { 
+    background: #84cc4c;
+}
+
+.blue-bg {
+    background: #2b72b5;
+}
+
+.rose-bg {
+    background: #ce5c4d;
+}
+
+.orange-bg {
+    background: #f28e1c;
+}
+
+
+ div#contact_form_left {
+    float: left;
+    display: inline;
+    width: 390px;
+    margin: 0 25px 0 50px;
+}
+
+div#contact_right {
+    float: left;
+    display: inline;
+    width: 200px;
+    text-align: right;
+    border-left: 1px solid #ddd;
+    padding: 0 0 0 25px;
+}
+
+div#contact_right h2 {
+    font-size: 14px;
+    border-bottom: 1px solid #2a4995;
+}
+
+
+#theContent div.fform {
+    clear: both;
+    margin: 10px;
+    text-align: left;
+}
+
+#theContent div.fform label,
+div.fform label {
+    width: 100px;
+    text-align: right;
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 2px 0 0 0;
+}
+
+#theContent div.fform {
+    clear: both;
+    margin: 10px;
+    text-align: left;
+}
+
+#theContent div.fform label {
+    width: 100px;
+    text-align: right;
+    float: left;
+    margin: 0 5px 0 0;
+    padding: 2px 0 0 0;
+}
+
+#theContent div.fform div.txtarea {
+    float: left;
+    display: inline;
+    width: 149px;
+}
+
+#theContent div.fform label.no_float {
+    float: none;
+    clear: both;
+}
+
+
+#theGrayness {   
+    width: 100%;
+    height: 100%;
+    display: none;
+    background: #dddddd;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 900;
+}
+
+#theDay { 
+    display: none;
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url('../images/big_day.png') 0 0 no-repeat;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+#theDay div#theDay_inside {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+#theDay div#theDay_inside h2.cal_head {
+    height: 26px;
+    line-height: 26px;
+    margin: 0;
+    font-size: 18px;
+}
+
+#theDay div#theDay_inside h3 {
+    font-size: 16px;
+}
+
+#theDay div#theDay_inside p {
+    margin: 5px 10px;
+}
+
+#theDay div#theDay_inside div.cal_detail {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+}    
+
+#theBottom:after,
+#theHomeBottom:after,
+#theHome:after,
+#theContent:after, 
+.clearfix:after,
+#theHeader:after,
+#theBody div#theBoxes:after,
+#theFooter:after, #theBody:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */

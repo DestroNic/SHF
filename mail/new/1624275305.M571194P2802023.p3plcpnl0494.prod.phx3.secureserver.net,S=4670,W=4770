@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id KJlWH2l50GBnwSoASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Mon, 21 Jun 2021 04:35:05 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Mon, 21 Jun 2021 04:35:05 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1lvICn-00CSHt-Dh
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Mon, 21 Jun 2021 04:35:05 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1624275304www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1624275305-eximdsn-1966562564
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1lvICn-00CSHt-Dh@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Mon, 21 Jun 2021 04:35:05 -0700
+
+--1624275305-eximdsn-1966562564
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 vICnlnbl2VjYq :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=60d07969 p=vGFoVK4MAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=r6YtysWOX24A:10 a=hjwoKFQhkA4A:10 a=sN988lbWAAAA:8 a=3nstG4X1-s5ZWB0gqGQA:9 a=wPNLvfGTeEIA:10 a=ohNk0HF6qqwA:10 a=RL9GoaDtrsIA:10 a=VYxATqtqUV0A:10 a=Qe8cIzypUxZ9bHclNxkO:22 a=2x2MyJngb7APMFiTcL2H:22 a=p-dnK0njbqwfn1k4-x12:22 a=qxG4R2aHmpcNjmqRPJKJ:22 ::
+    100.00
+
+--1624275305-eximdsn-1966562564
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 vICnlnbl2VjYq :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=U+VXscnu c=1 sm=1 tr=0 ts=60d07969 p=vGFoVK4MAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=r6YtysWOX24A:10 a=hjwoKFQhkA4A:10 a=sN988lbWAAAA:8 a=3nstG4X1-s5ZWB0gqGQA:9 a=wPNLvfGTeEIA:10 a=ohNk0HF6qqwA:10 a=RL9GoaDtrsIA:10 a=VYxATqtqUV0A:10 a=Qe8cIzypUxZ9bHclNxkO:22 a=2x2MyJngb7APMFiTcL2H:22 a=p-dnK0njbqwfn1k4-x12:22 a=qxG4R2aHmpcNjmqRPJKJ:22 :: 100.00
+
+--1624275305-eximdsn-1966562564
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1lvICm-00CSHD-NY
+	for kmcaulay@shfinc.org; Mon, 21 Jun 2021 04:35:04 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 104.245.145.29, 108.162.241.58
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 108.162.241.58
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1624275304www.settlementhousingfund.org>
+X-Sender-IP: 108.162.241.58
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="2434c8feebe270fcbb323da9e8d66617"
+Date: Mon, 21 Jun 2021 04:35:04 -0700
+
+--2434c8feebe270fcbb323da9e8d66617
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Hubert Egger
+Business Name: Hubert Egger
+Email: lohyjomabe-8815@yopmail.com
+Phone: 078 4889 9644
+Address: 
+57 Scotsburn Rd
+Tal-Y-Wern, NA Sy20 7by
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Tired of paying for clicks? Go here: http://bit.ly/no-more-ppc-costs
+
+---------------------------------------------------------------
+
+end of message
+
+--2434c8feebe270fcbb323da9e8d66617--
+
+
+
+--1624275305-eximdsn-1966562564--

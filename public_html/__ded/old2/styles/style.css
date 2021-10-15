@@ -1,0 +1,167 @@
+html, body { 
+    margin: 0;
+    padding: 0;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 12px;
+    text-align: center;
+    background: url('../images/gray_bg.jpg');
+    color: #555555;
+}
+
+img { border: 0 none; }
+a{
+    color: #666666;
+    outline: none;
+}
+
+a:hover { color: #000000;  }
+
+#theContainer {
+    width: 1010px;
+    background: url('../images/gray_bg.jpg');
+}
+
+#theDarkBlue {
+    width: 60px;
+    height: 1000px;
+    background: url('../images/bg.jpg');
+    text-align: center;
+    float: left;
+    display: inline;
+    border-right: 1px solid #ffffff;
+    padding: 60px 0 0;
+}
+
+#theGreen {
+    float: left;
+    display: inline;
+    width: 220px;
+    height: 1000px;
+    background: #6f9163;
+    border-right: 1px solid #ffffff;
+    text-align: left;
+    padding: 60px 0 0;
+}
+
+#theGreen p {
+    margin: 0 20px 10px;
+    font-size: 12px;
+    color: #ffffff;
+    line-height: 15px;
+}
+
+#theGreen h1 {
+    margin: 100px 20px 0;
+    color: #14477e;
+    font-size: 18px;
+}
+
+#theGray {
+    /* width: 800px; */
+    height: 1000px;
+    float: left;
+    display: inline;
+    background: url('../images/gray_bg.jpg');
+}
+
+#theGray h1 {
+    line-height: 60px;
+    font-size: 22px;
+    color: #256cb5;
+    text-align: right;
+    margin: 0 10px 0 0;
+}
+
+#theGray h2 {
+    color: #215e5e;
+    font-size: 22px;
+    margin: 0 0 10px;
+}
+
+#theGray h3 a {
+    text-decoration: none;
+    color: #256cb5;
+}
+
+#theGray h3 a:hover {
+    color: #000000;
+}
+
+#theGray h3 {
+    color: #256cb5;
+    font-size: 15px;
+    line-height: 19px;
+    margin: 0 0 15px;
+    font-weight: normal;
+}
+
+#theGray h4 {
+    text-align: left;
+}
+
+#theGray h4.center {
+    text-align: center;
+}
+
+#theGray div.column {
+    float: left;
+    display: inline;
+    margin: 0 0 0 40px;
+    width: 320px;
+    height: 955px;
+    text-align: left;
+}
+
+#theBlueFooter {
+    clear: both;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    background: #256cb5;
+    border-top: 1px solid #ffffff;
+}
+
+#theBlueFooter h1 {
+    text-align: left;
+    padding: 0 0 0 70px;
+    margin: 0;
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 50px;
+    margin: 0;
+}
+
+#theFooter {
+    clear: both;
+    background: url('../images/gray_bg.jpg');
+    color: #256cb5;
+    text-align: left;
+}
+
+#theFooter p {
+    color: #256cb5;
+    font-size: 14px;
+    margin: 15px 0 15px 70px;
+}
+
+#theFooter p span {
+    margin: 0 10px;
+}
+
+
+
+
+.clearfix:after,
+#theContainer:after,
+#theGray:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+/* End hide from IE-mac */

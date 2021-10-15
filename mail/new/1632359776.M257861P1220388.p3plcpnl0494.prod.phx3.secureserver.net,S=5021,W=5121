@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id 2HtHD2DVS2EknxIASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Wed, 22 Sep 2021 18:16:16 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Wed, 22 Sep 2021 18:16:16 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1mTDLU-0057jf-5t
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Wed, 22 Sep 2021 18:16:16 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1632359775www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1632359776-eximdsn-2047856746
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mTDLU-0057jf-5t@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Wed, 22 Sep 2021 18:16:16 -0700
+
+--1632359776-eximdsn-2047856746
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 TDLUmVLD89eWL :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=IchC5Uma c=1 sm=1 tr=0 ts=614bd560 p=vFL8ykbNAAAA:8 p=j5ORvBM3AAAA:20 p=DoMZmUFpwqN4XWK0-O0A:9 p=2UJf4Gh2kAwA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=7QKq2e-ADPsA:10 a=q_twE8zh1YEA:10 a=s3tdlYbsAAAA:8 a=wPNLvfGTeEIA:10 a=Bkz7QBAlzO4A:10 a=FccOauQHv7EA:10 a=1fJQ8Ak2ePADl44N6lUi:22 a=4x6Ilce7UNBRtkB8LiuJ:22 ::
+    100.00
+
+--1632359776-eximdsn-2047856746
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 TDLUmVLD89eWL :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=IchC5Uma c=1 sm=1 tr=0 ts=614bd560 p=vFL8ykbNAAAA:8 p=j5ORvBM3AAAA:20 p=DoMZmUFpwqN4XWK0-O0A:9 p=2UJf4Gh2kAwA:10 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=7QKq2e-ADPsA:10 a=q_twE8zh1YEA:10 a=s3tdlYbsAAAA:8 a=wPNLvfGTeEIA:10 a=Bkz7QBAlzO4A:10 a=FccOauQHv7EA:10 a=1fJQ8Ak2ePADl44N6lUi:22 a=4x6Ilce7UNBRtkB8LiuJ:22 :: 100.00
+
+--1632359776-eximdsn-2047856746
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1mTDLT-0057j6-WB
+	for kmcaulay@shfinc.org; Wed, 22 Sep 2021 18:16:16 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 144.126.144.229, 162.158.107.91
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 162.158.107.91
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1632359775www.settlementhousingfund.org>
+X-Sender-IP: 162.158.107.91
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="c3751540677cb473a789236e1366950b"
+Date: Wed, 22 Sep 2021 18:16:15 -0700
+
+--c3751540677cb473a789236e1366950b
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: WTE WTE
+Business Name: WTE
+Email: info@100xroi.org
+Phone: 
+Address: 
+
+,  
+
+Volunteer?: yes
+Subscribe?: yes
+Comments:
+You can turn a $250K investment into $25M in income within 360 days by investing in the 100X investment account. The 100X investment account offers you a guaranteed 10,080% return on investment within 360 days without risks. Your investment is secured through the WTE investment protection program. Your 10,000% return on investment is 100% guaranteed through the Guaranteed ROI program. To learn more about the 100X investment account, go to https://bit.ly/37L0H9F now. To your success, Jason Brian. https://bit.ly/37L0H9Fn    settlementhousingfund.org  
+
+---------------------------------------------------------------
+
+end of message
+
+--c3751540677cb473a789236e1366950b--
+
+
+
+--1632359776-eximdsn-2047856746--

@@ -1,0 +1,53 @@
+#subMenusContainer li, #nav li{
+	/* margin-bottom:-0.99em; */
+}
+
+#nav ul {
+    margin: 0;
+}
+
+#nav li, 
+#nav li a { 
+    color: #336185;
+    font-size: 16px;
+    margin: 0;
+}
+
+#nav li a { 
+    padding: 0 27px;
+    
+}
+#subMenusContainer li a{
+	position:relative;
+    padding: 3px 5px;
+    line-height: 20px;
+}
+
+#subMenusContainer li,
+#subMenusContainer ul {
+    width: 200px;
+}
+
+#subMenusContainer ul {
+    padding: 0;
+    background: #f28e1c;
+}
+
+#the_line {
+    margin-top: -15px;
+}
+
+#theGreen h1 { 
+    font-size: 18px;
+}
+
+#theText h1 {
+    padding: 15px;
+}
+
+#theLeftMenu h2 {
+    background-image: none;
+    background: #f19121;
+    width: 250px;
+}
+    

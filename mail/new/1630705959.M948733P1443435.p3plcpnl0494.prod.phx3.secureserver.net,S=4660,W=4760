@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id TSx1MyeZMmFrBhYASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Fri, 03 Sep 2021 14:52:39 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Fri, 03 Sep 2021 14:52:39 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1mMH71-0064Jv-PW
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Fri, 03 Sep 2021 14:52:39 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1630705959www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1630705959-eximdsn-1279268634
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1mMH71-0064Jv-PW@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Fri, 03 Sep 2021 14:52:39 -0700
+
+--1630705959-eximdsn-1279268634
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 MH71mePiFPxhm :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=MJalJOVl c=1 sm=1 tr=0 ts=61329927 p=PQuQ2xIDhaoA:10 p=ipYbmILFAAAA:8 p=ZKIYnBn7AAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=7QKq2e-ADPsA:10 a=Rtehk0yfT0sCAkAiBTAA:9 a=wPNLvfGTeEIA:10 a=j42ZLPxe4D4A:10 a=A1PyqZANjNcA:10 a=PpvQEwnPbwYA:10 a=BgbUFtNKSFcA:10 a=_FySywYSYVWjKJuUv0Md:22 ::
+    100.00
+
+--1630705959-eximdsn-1279268634
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 MH71mePiFPxhm :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=MJalJOVl c=1 sm=1 tr=0 ts=61329927 p=PQuQ2xIDhaoA:10 p=ipYbmILFAAAA:8 p=ZKIYnBn7AAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=7QKq2e-ADPsA:10 a=Rtehk0yfT0sCAkAiBTAA:9 a=wPNLvfGTeEIA:10 a=j42ZLPxe4D4A:10 a=A1PyqZANjNcA:10 a=PpvQEwnPbwYA:10 a=BgbUFtNKSFcA:10 a=_FySywYSYVWjKJuUv0Md:22 :: 100.00
+
+--1630705959-eximdsn-1279268634
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1mMH71-0064F5-5K
+	for kmcaulay@shfinc.org; Fri, 03 Sep 2021 14:52:39 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 156.146.36.107, 172.70.114.60
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 172.70.114.60
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1630705959www.settlementhousingfund.org>
+X-Sender-IP: 172.70.114.60
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="37d77b48ade8f525200882abda54b0b6"
+Date: Fri, 03 Sep 2021 14:52:39 -0700
+
+--37d77b48ade8f525200882abda54b0b6
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Jarrod Elizondo
+Business Name: Jarrod Elizondo
+Email: laok.duhoky4@disdraplo.com
+Phone: 01.76.18.17.55
+Address: 
+57 Rue De Strasbourg
+Clichy, CENTRE 92110
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Now you can get thousands of high quality niche targeted website visitors for less than the price of a few clicks on Google. Find out more here: https://tinyurl.com/yf9x8yhg
+
+---------------------------------------------------------------
+
+end of message
+
+--37d77b48ade8f525200882abda54b0b6--
+
+
+
+--1630705959-eximdsn-1279268634--

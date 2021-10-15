@@ -1,0 +1,100 @@
+Return-Path: <>
+Delivered-To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Received: from p3plcpnl0494.prod.phx3.secureserver.net
+	by p3plcpnl0494.prod.phx3.secureserver.net with LMTP
+	id GO1QJ5Wv6WB2rQUASQLBBQ
+	(envelope-from <>)
+	for <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>; Sat, 10 Jul 2021 07:32:53 -0700
+Return-path: <>
+Envelope-to: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+Delivery-date: Sat, 10 Jul 2021 07:32:53 -0700
+Received: from mailnull by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	id 1m2E2H-001tqE-Ii
+	for g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net; Sat, 10 Jul 2021 07:32:53 -0700
+X-Failed-Recipients: kmcaulay@shfinc.org
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@p3plcpnl0494.prod.phx3.secureserver.net>
+To: g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net
+References: <1625927573www.settlementhousingfund.org>
+Content-Type: multipart/report; report-type=delivery-status; boundary=1625927573-eximdsn-1013738902
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1m2E2H-001tqE-Ii@p3plcpnl0494.prod.phx3.secureserver.net>
+Date: Sat, 10 Jul 2021 07:32:53 -0700
+
+--1625927573-eximdsn-1013738902
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kmcaulay@shfinc.org
+    host p3nlsmtpcp-v01.prod.phx3.gdg [72.167.191.78]
+    SMTP error from remote mail server after end of data:
+    552 5.2.0 2E2HmCb9vnRIY :: CPANEL :: Message rejected for spam or virus content ::
+    Please include this entire message when contacting support ::
+    v=2.4 cv=TLmA93pa c=1 sm=1 tr=0 ts=60e9af95 p=y9_-XoFLAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=e_q4qTt1xDgA:10 a=nmIX8z-jjJwA:10 a=v2kmqohGAAAA:8 a=O4Bldh8hUPZD_bTG1SAA:9 a=wPNLvfGTeEIA:10 a=nxFaGb8qJh0A:10 a=V-aSratQJ5YA:10 a=FQLglubUIcMA:10 a=QzL1RZJ3qBnhSTBVtShI:22 ::
+    100.00
+
+--1625927573-eximdsn-1013738902
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; p3plcpnl0494.prod.phx3.secureserver.net
+
+Action: failed
+Final-Recipient: rfc822;kmcaulay@shfinc.org
+Status: 5.0.0
+Remote-MTA: dns; p3nlsmtpcp-v01.prod.phx3.gdg
+Diagnostic-Code: smtp; 552 5.2.0 2E2HmCb9vnRIY :: CPANEL :: Message rejected for spam or virus content :: Please include this entire message when contacting support :: v=2.4 cv=TLmA93pa c=1 sm=1 tr=0 ts=60e9af95 p=y9_-XoFLAAAA:20 a=15FctQXmzrr+hARyE/szTQ==:117 a=9+rZDBEiDlHhcck0kWbJtElFXBc=:19 a=dLZJa+xiwSxG16/P+YVxDGlgEgI=:19 a=Doz98IfBdH8A:10 a=e67mg49T7SMA:10 a=e_q4qTt1xDgA:10 a=nmIX8z-jjJwA:10 a=v2kmqohGAAAA:8 a=O4Bldh8hUPZD_bTG1SAA:9 a=wPNLvfGTeEIA:10 a=nxFaGb8qJh0A:10 a=V-aSratQJ5YA:10 a=FQLglubUIcMA:10 a=QzL1RZJ3qBnhSTBVtShI:22 :: 100.00
+
+--1625927573-eximdsn-1013738902
+Content-type: message/rfc822
+
+Return-path: <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>
+Received: from g80kpw0cm9si by p3plcpnl0494.prod.phx3.secureserver.net with local (Exim 4.93)
+	(envelope-from <g80kpw0cm9si@p3plcpnl0494.prod.phx3.secureserver.net>)
+	id 1m2E2H-001tpp-DM
+	for kmcaulay@shfinc.org; Sat, 10 Jul 2021 07:32:53 -0700
+To: kmcaulay@shfinc.org
+Subject: SHF - Contact Form
+X-PHP-Script: www.settlementhousingfund.org/content.php for 195.181.168.184, 172.70.110.206
+X-PHP-Filename: /home/g80kpw0cm9si/public_html/content.php REMOTE_ADDR: 172.70.110.206
+From: Website Contact Form <website@settlementhousingfund.org>
+Reply-To: Website Contact Form <website@settlementhousingfund.org>
+Message-ID: <1625927573www.settlementhousingfund.org>
+X-Sender-IP: 172.70.110.206
+X-Mailer: PHP v5.6.40
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="a687cc7639c0d7d36e982d8eff4dbbcc"
+Date: Sat, 10 Jul 2021 07:32:53 -0700
+
+--a687cc7639c0d7d36e982d8eff4dbbcc
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: 8bit
+
+A contact from the internet!
+
+Name: Serena Hamrick
+Business Name: Serena Hamrick
+Email: nsamuelvale101@yaungshop.com
+Phone: (85) 3725-5931
+Address: 
+Travessa Beatriz Calixto 1849
+Maracanau, CE 61932-740
+
+Volunteer?: 
+Subscribe?: 
+Comments:
+Maximum Ad Exposure - No more ad spends  : https://bit.ly/ads-for-free-forever
+
+---------------------------------------------------------------
+
+end of message
+
+--a687cc7639c0d7d36e982d8eff4dbbcc--
+
+
+
+--1625927573-eximdsn-1013738902--
